@@ -1,0 +1,557 @@
+{
+  "summary": {
+    "total_videos": 1517,
+    "analyzed_videos": 1517,
+    "analysis_date": "2025-10-08T14:47:05.104380"
+  },
+  "engagement_metrics": {
+    "top_10": {
+      "avg_engagement_rate": 0.14661171094871359,
+      "avg_like_rate": 0.13741420904755752,
+      "avg_comment_rate": 0.0016220804184840113,
+      "avg_share_rate": 0.007575421482672065,
+      "median_engagement_rate": 0.1343327848101266
+    },
+    "top_25": {
+      "avg_engagement_rate": 0.11040979069833921,
+      "avg_like_rate": 0.10092536583236142,
+      "avg_comment_rate": 0.002293009845444211,
+      "avg_share_rate": 0.007191415020533583,
+      "median_engagement_rate": 0.09876615384615385
+    },
+    "mid_tier": {
+      "avg_engagement_rate": 0.04505894186211869,
+      "avg_like_rate": 0.038284936889253614,
+      "avg_comment_rate": 0.001727404511988642,
+      "avg_share_rate": 0.005046600460876433,
+      "median_engagement_rate": 0.04336633663366336
+    },
+    "bottom_25": {
+      "avg_engagement_rate": 0.018461756940032072,
+      "avg_like_rate": 0.015330141397589835,
+      "avg_comment_rate": 0.0007421798113269191,
+      "avg_share_rate": 0.002389435731115319,
+      "median_engagement_rate": 0.020232767431414694
+    }
+  },
+  "hook_patterns": {
+    "top_10": {
+      "question_pct": 11.76470588235294,
+      "imperative_pct": 2.941176470588235,
+      "statement_pct": 85.29411764705883
+    },
+    "mid_tier": {
+      "question_pct": 15.548281505728315,
+      "imperative_pct": 0.8183306055646482,
+      "statement_pct": 83.63338788870703
+    },
+    "bottom_25": {
+      "question_pct": 18.75,
+      "imperative_pct": 0.3472222222222222,
+      "statement_pct": 80.90277777777779
+    }
+  },
+  "top_viral_hooks": [
+    {
+      "hook": "{\"utterances\":[{\"text\":\"okay so if you blew all of your money in your twenties on boo shoes and food\",\"start_time\":537,\"end_time\":5122,\"words\":null},{\"text\":\"but now you're ready to get your financial shit together\",\"start_time\":5377,\"end_time\":7602,\"words\":null},{\"text\":\"videos for you\",\"start_time\":7890,\"end_time\":8798,\"words\":null},{\"text\":\"i am going",
+      "author": "nobudgetbabe",
+      "url": "https://www.tiktok.com/@nobudgetbabe/video/7056817295368146181",
+      "likes": 145900,
+      "plays": 784100,
+      "engagement_rate": 0.18977808952939676
+    },
+    {
+      "hook": "how you react to other people's success is a direct reflection of your own self belief if you look at someone doing well and you think “why not me” instead",
+      "author": "miarosemcgrath",
+      "url": "https://www.tiktok.com/@miarosemcgrath/video/7522006685305589014",
+      "likes": 28900,
+      "plays": 163500,
+      "engagement_rate": 0.181565749235474
+    },
+    {
+      "hook": "out with the old and in with the new stop stop what are you doing cutting my old credit card don't worry i'm gonna call the bank right after and",
+      "author": "yourrichbff",
+      "url": "https://www.tiktok.com/@yourrichbff/video/7101686676946308394",
+      "likes": 229800,
+      "plays": 1300000,
+      "engagement_rate": 0.17855923076923078
+    },
+    {
+      "hook": "no have you seen what happens to lottery winners i'm vivian your rich bff and you follow me for good money advice here's what you should do if you actually",
+      "author": "yourrichbff",
+      "url": "https://www.tiktok.com/@yourrichbff/video/7126272202135211310",
+      "likes": 2500000,
+      "plays": 14400000,
+      "engagement_rate": 0.1781111111111111
+    },
+    {
+      "hook": "ooh - i know you didn't think i was gonna let that go. please. buckle up cause it's about to be a bumpy ride. i may not be some old",
+      "author": "yourrichbff",
+      "url": "https://www.tiktok.com/@yourrichbff/video/7025299831191014702",
+      "likes": 273200,
+      "plays": 1600000,
+      "engagement_rate": 0.1769575
+    },
+    {
+      "hook": "start learning for free link in bio every extra dollar you saved would have just got me to financial freedom sooner and that $64,000 grew into over 1.8 million dollars",
+      "author": "nobudgetbabe",
+      "url": "https://www.tiktok.com/@nobudgetbabe/video/7204492233024736517",
+      "likes": 2000000,
+      "plays": 12000000,
+      "engagement_rate": 0.17588708333333333
+    },
+    {
+      "hook": "listen wall street just dropped $13 billion honey while you was worried about the president's hand and the rich got richer but you if you got $20 here's the they",
+      "author": "keziamw",
+      "url": "https://www.tiktok.com/@keziamw/video/7545852714442411295",
+      "likes": 434,
+      "plays": 3200,
+      "engagement_rate": 0.174375
+    },
+    {
+      "hook": "listen wall street just dropped $13 billion honey while you was worried about the president's hand and the rich got richer but you if you got $20 here's the they",
+      "author": "keziamw",
+      "url": "https://www.tiktok.com/@keziamw/video/7545852714442411295",
+      "likes": 434,
+      "plays": 3200,
+      "engagement_rate": 0.174375
+    },
+    {
+      "hook": "there is no bigger flex than a woman that has her own finances sorted. a couple years ago, i kind of got sucked into that whole world of hypergamy creators",
+      "author": "miarosemcgrath",
+      "url": "https://www.tiktok.com/@miarosemcgrath/video/7555773343559961878",
+      "likes": 18600,
+      "plays": 112700,
+      "engagement_rate": 0.17358473824312334
+    },
+    {
+      "hook": "everyone believes that getting rich is complicated okay but that is because when they hear how the real rich actually do things they go oh no that's too simple to",
+      "author": "nobudgetbabe",
+      "url": "https://www.tiktok.com/@nobudgetbabe/video/7454597080103849222",
+      "likes": 833300,
+      "plays": 5400000,
+      "engagement_rate": 0.17083333333333334
+    }
+  ],
+  "length_analysis": {
+    "5": {
+      "avg_engagement": 0.07639442187106367,
+      "median_engagement": 0.055563432414104885,
+      "sample_size": 106
+    },
+    "10": {
+      "avg_engagement": 0.06249816435547042,
+      "median_engagement": 0.04715911578025826,
+      "sample_size": 81
+    },
+    "15": {
+      "avg_engagement": 0.04936298734010288,
+      "median_engagement": 0.039677083333333335,
+      "sample_size": 67
+    },
+    "20": {
+      "avg_engagement": 0.044373678186059674,
+      "median_engagement": 0.03916393210176633,
+      "sample_size": 64
+    },
+    "25": {
+      "avg_engagement": 0.06740336694471613,
+      "median_engagement": 0.05643608627038401,
+      "sample_size": 55
+    },
+    "30": {
+      "avg_engagement": 0.052116160409484774,
+      "median_engagement": 0.04368404717566729,
+      "sample_size": 43
+    },
+    "35": {
+      "avg_engagement": 0.05881330979457324,
+      "median_engagement": 0.04800062189054726,
+      "sample_size": 57
+    },
+    "40": {
+      "avg_engagement": 0.054858759404097006,
+      "median_engagement": 0.04285714285714286,
+      "sample_size": 59
+    },
+    "45": {
+      "avg_engagement": 0.05520975806328474,
+      "median_engagement": 0.04835562156993181,
+      "sample_size": 60
+    },
+    "50": {
+      "avg_engagement": 0.048748296077785226,
+      "median_engagement": 0.040951219512195124,
+      "sample_size": 75
+    },
+    "55": {
+      "avg_engagement": 0.06824819830308694,
+      "median_engagement": 0.052989637675798534,
+      "sample_size": 136
+    },
+    "60": {
+      "avg_engagement": 0.0452197645779975,
+      "median_engagement": 0.0381859410430839,
+      "sample_size": 107
+    },
+    "65": {
+      "avg_engagement": 0.03859844053919762,
+      "median_engagement": 0.03119315211709357,
+      "sample_size": 62
+    },
+    "70": {
+      "avg_engagement": 0.03638208575884606,
+      "median_engagement": 0.02922400654228614,
+      "sample_size": 68
+    },
+    "75": {
+      "avg_engagement": 0.04098137454536915,
+      "median_engagement": 0.032005347593582895,
+      "sample_size": 62
+    },
+    "80": {
+      "avg_engagement": 0.04173452998898191,
+      "median_engagement": 0.03298517970882621,
+      "sample_size": 54
+    },
+    "85": {
+      "avg_engagement": 0.052200195866422376,
+      "median_engagement": 0.04234632683658171,
+      "sample_size": 48
+    },
+    "90": {
+      "avg_engagement": 0.04860275072902772,
+      "median_engagement": 0.036190371991247264,
+      "sample_size": 35
+    },
+    "95": {
+      "avg_engagement": 0.054121422591077814,
+      "median_engagement": 0.04710281097847075,
+      "sample_size": 8
+    },
+    "100": {
+      "avg_engagement": 0.08831430197442858,
+      "median_engagement": 0.08952758807737571,
+      "sample_size": 18
+    },
+    "105": {
+      "avg_engagement": 0.0657349997214523,
+      "median_engagement": 0.0537598014038692,
+      "sample_size": 14
+    },
+    "110": {
+      "avg_engagement": 0.04989088465893591,
+      "median_engagement": 0.04298472615503008,
+      "sample_size": 16
+    },
+    "115": {
+      "avg_engagement": 0.044222410298523473,
+      "median_engagement": 0.03407858136300417,
+      "sample_size": 7
+    },
+    "120": {
+      "avg_engagement": 0.08534080677225932,
+      "median_engagement": 0.097269477124183,
+      "sample_size": 6
+    },
+    "125": {
+      "avg_engagement": 0.060309729797314277,
+      "median_engagement": 0.05027501129873865,
+      "sample_size": 12
+    },
+    "135": {
+      "avg_engagement": 0.06878828820041544,
+      "median_engagement": 0.059910524073285044,
+      "sample_size": 7
+    },
+    "150": {
+      "avg_engagement": 0.05796433981058365,
+      "median_engagement": 0.06397647058823529,
+      "sample_size": 7
+    },
+    "155": {
+      "avg_engagement": 0.07939385914241177,
+      "median_engagement": 0.0692300420638117,
+      "sample_size": 8
+    }
+  },
+  "top_hashtags": [
+    {
+      "tag": "stitch",
+      "stats": {
+        "avg_engagement": 0.14573425335149884,
+        "usage_count": 8
+      }
+    },
+    {
+      "tag": "cash",
+      "stats": {
+        "avg_engagement": 0.14133031275468003,
+        "usage_count": 5
+      }
+    },
+    {
+      "tag": "rich",
+      "stats": {
+        "avg_engagement": 0.13692740849418453,
+        "usage_count": 10
+      }
+    },
+    {
+      "tag": "makemoney",
+      "stats": {
+        "avg_engagement": 0.1357190804327501,
+        "usage_count": 6
+      }
+    },
+    {
+      "tag": "greenscreen",
+      "stats": {
+        "avg_engagement": 0.1293565966452681,
+        "usage_count": 23
+      }
+    },
+    {
+      "tag": "moneytok",
+      "stats": {
+        "avg_engagement": 0.1286864760871513,
+        "usage_count": 8
+      }
+    },
+    {
+      "tag": "job",
+      "stats": {
+        "avg_engagement": 0.12503980081081081,
+        "usage_count": 5
+      }
+    },
+    {
+      "tag": "pay",
+      "stats": {
+        "avg_engagement": 0.12503980081081081,
+        "usage_count": 5
+      }
+    },
+    {
+      "tag": "learnontiktok",
+      "stats": {
+        "avg_engagement": 0.12260134254304567,
+        "usage_count": 16
+      }
+    },
+    {
+      "tag": "lifehack",
+      "stats": {
+        "avg_engagement": 0.12231557464699848,
+        "usage_count": 7
+      }
+    },
+    {
+      "tag": "bitcoin",
+      "stats": {
+        "avg_engagement": 0.12217162973119645,
+        "usage_count": 5
+      }
+    },
+    {
+      "tag": "cryptocurrency",
+      "stats": {
+        "avg_engagement": 0.1220784899369007,
+        "usage_count": 5
+      }
+    },
+    {
+      "tag": "millionaire",
+      "stats": {
+        "avg_engagement": 0.11894223231480658,
+        "usage_count": 15
+      }
+    },
+    {
+      "tag": "wealth",
+      "stats": {
+        "avg_engagement": 0.11791551101617785,
+        "usage_count": 7
+      }
+    },
+    {
+      "tag": "crypto",
+      "stats": {
+        "avg_engagement": 0.11555260960004585,
+        "usage_count": 7
+      }
+    },
+    {
+      "tag": "savingmoney",
+      "stats": {
+        "avg_engagement": 0.11446969458293778,
+        "usage_count": 13
+      }
+    },
+    {
+      "tag": "corporate",
+      "stats": {
+        "avg_engagement": 0.11401835811653979,
+        "usage_count": 6
+      }
+    },
+    {
+      "tag": "career",
+      "stats": {
+        "avg_engagement": 0.11378056480732024,
+        "usage_count": 8
+      }
+    },
+    {
+      "tag": "invest",
+      "stats": {
+        "avg_engagement": 0.1134548924669075,
+        "usage_count": 11
+      }
+    },
+    {
+      "tag": "creditscore",
+      "stats": {
+        "avg_engagement": 0.11272485281520608,
+        "usage_count": 6
+      }
+    }
+  ],
+  "top_authors": [
+    {
+      "author": "nobudgetbabe",
+      "stats": {
+        "video_count": 29,
+        "avg_engagement_rate": 0.14499829574842618,
+        "total_plays": 79799000,
+        "total_engagement": 11345071
+      }
+    },
+    {
+      "author": "yourrichbff",
+      "stats": {
+        "video_count": 29,
+        "avg_engagement_rate": 0.14239920906087122,
+        "total_plays": 100900000,
+        "total_engagement": 14055329
+      }
+    },
+    {
+      "author": "nastyaswan",
+      "stats": {
+        "video_count": 59,
+        "avg_engagement_rate": 0.12393814583985682,
+        "total_plays": 143506400,
+        "total_engagement": 16268346
+      }
+    },
+    {
+      "author": "quiverquant",
+      "stats": {
+        "video_count": 29,
+        "avg_engagement_rate": 0.10317224897073707,
+        "total_plays": 75662900,
+        "total_engagement": 7485551
+      }
+    },
+    {
+      "author": "anissaayla",
+      "stats": {
+        "video_count": 3,
+        "avg_engagement_rate": 0.08735444121055326,
+        "total_plays": 344246,
+        "total_engagement": 32790
+      }
+    },
+    {
+      "author": "miarosemcgrath",
+      "stats": {
+        "video_count": 61,
+        "avg_engagement_rate": 0.08542938504908573,
+        "total_plays": 35129500,
+        "total_engagement": 2200135
+      }
+    },
+    {
+      "author": "thestockbunny",
+      "stats": {
+        "video_count": 48,
+        "avg_engagement_rate": 0.08527467207118862,
+        "total_plays": 15977019,
+        "total_engagement": 725413
+      }
+    },
+    {
+      "author": "chungtradez",
+      "stats": {
+        "video_count": 3,
+        "avg_engagement_rate": 0.07492894684340833,
+        "total_plays": 97964,
+        "total_engagement": 6339
+      }
+    },
+    {
+      "author": "sabrina_ramonov",
+      "stats": {
+        "video_count": 8,
+        "avg_engagement_rate": 0.07028730246144474,
+        "total_plays": 2091900,
+        "total_engagement": 140994
+      }
+    },
+    {
+      "author": "nategold.ai",
+      "stats": {
+        "video_count": 5,
+        "avg_engagement_rate": 0.06815205040672392,
+        "total_plays": 647024,
+        "total_engagement": 52206
+      }
+    },
+    {
+      "author": "chrisjjosephs",
+      "stats": {
+        "video_count": 57,
+        "avg_engagement_rate": 0.06381338010959092,
+        "total_plays": 55281900,
+        "total_engagement": 2283071
+      }
+    },
+    {
+      "author": "takeitezjbz",
+      "stats": {
+        "video_count": 3,
+        "avg_engagement_rate": 0.06296934243310584,
+        "total_plays": 82600,
+        "total_engagement": 4162
+      }
+    },
+    {
+      "author": "yahoofinance",
+      "stats": {
+        "video_count": 60,
+        "avg_engagement_rate": 0.06287484369877112,
+        "total_plays": 149294200,
+        "total_engagement": 7822046
+      }
+    },
+    {
+      "author": "edgaralandough2",
+      "stats": {
+        "video_count": 3,
+        "avg_engagement_rate": 0.058615841717396,
+        "total_plays": 2065,
+        "total_engagement": 127
+      }
+    },
+    {
+      "author": "calltoleap",
+      "stats": {
+        "video_count": 126,
+        "avg_engagement_rate": 0.058408967652139605,
+        "total_plays": 101456300,
+        "total_engagement": 5761180
+      }
+    }
+  ]
+}
