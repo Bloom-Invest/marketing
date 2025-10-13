@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Load Instagram transcripts
-const transcriptsPath = path.join(__dirname, '../full_transcripts/instagram_transcripts.json');
+const transcriptsPath = path.join(__dirname, '../data/full_transcripts/instagram_transcripts.json');
 const data = JSON.parse(fs.readFileSync(transcriptsPath, 'utf8'));
 
 console.log(`Total videos: ${data.length}`);
@@ -87,6 +87,6 @@ const analysis = {
   topWords: topWords
 };
 
-const outputPath = path.join(__dirname, '../full_transcripts/viral_analysis.json');
+const outputPath = path.join(__dirname, '../ideas/viral_analysis.json');
 fs.writeFileSync(outputPath, JSON.stringify(analysis, null, 2));
 console.log(`\nDetailed analysis saved to: ${outputPath}`);

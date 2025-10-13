@@ -319,8 +319,8 @@ Before posting, verify your video includes:
 - **Pattern Data**: `/context/viral_pattern_analysis.json`
 - **Video Examples**: `/context/viral_content_examples.json`
 - **Analysis Scripts**:
-  - `/scripts/analyze_viral_patterns.py`
-  - `/scripts/extract_viral_content_examples.py`
+  - `/utils/analyze_viral_patterns.py`
+  - `/utils/extract_viral_content_examples.py`
 
 ---
 

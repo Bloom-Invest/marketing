@@ -65,14 +65,16 @@ function loadVideos(inputFiles) {
 }
 
 /**
- * Extract transcripts from TikTok scraper JSON
+ * Extract transcripts from TikTok scraper JSON (sample version)
  * @param {string|string[]} inputFiles - Path(s) to tiktok_scraper.json
  * @param {string} outputFile - Path to save transcripts
+ * @param {number} limit - Number of videos to process (default: 10)
  */
-async function extractTranscripts(inputFiles, outputFile) {
-  const videos = loadVideos(inputFiles);
+async function extractTranscripts(inputFiles, outputFile, limit = 10) {
+  const allVideos = loadVideos(inputFiles);
+  const videos = allVideos.slice(0, limit);
 
-  console.log(`\nProcessing ${videos.length} total videos...`);
+  console.log(`\nProcessing first ${videos.length} of ${allVideos.length} total videos...`);
   const results = [];
   let processed = 0;
   let withSubtitles = 0;
@@ -119,8 +121,6 @@ async function extractTranscripts(inputFiles, outputFile) {
       continue;
     }
 
-    withSubtitles++;
-
     // Process only English subtitles
     const englishSubtitles = subtitleLinks.filter(s => s.language === 'eng-US');
 
@@ -129,6 +129,8 @@ async function extractTranscripts(inputFiles, outputFile) {
       results.push(videoData);
       continue;
     }
+
+    withSubtitles++;
 
     for (const subtitleInfo of englishSubtitles) {
       const url = subtitleInfo.downloadLink || subtitleInfo.tiktokLink;
@@ -166,7 +168,7 @@ async function extractTranscripts(inputFiles, outputFile) {
   fs.writeFileSync(outputFile, JSON.stringify(results, null, 2));
 
   console.log(`\nCompleted!`);
-  console.log(`  Total videos: ${processed}`);
+  console.log(`  Total videos processed: ${processed} of ${allVideos.length}`);
   console.log(`  Videos with subtitles: ${withSubtitles}`);
   console.log(`  Errors: ${errors}`);
   console.log(`  Output: ${outputFile}`);
@@ -178,12 +180,13 @@ const path = require('path');
 const inputFiles = process.argv[2]
   ? [process.argv[2]]
   : [
-      path.join(__dirname, '../context/tiktok_scraped_posts.json'),
-      path.join(__dirname, '../context/tiktok_scraped_posts_2.json')
+      path.join(__dirname, '../data/tiktok_scraped_posts.json'),
+      path.join(__dirname, '../data/tiktok_scraped_posts_2.json')
     ];
-const outputFile = process.argv[3] || path.join(__dirname, '../full_transcripts/tiktok_transcripts.json');
+const outputFile = process.argv[3] || path.join(__dirname, '../data/full_transcripts/tiktok_transcripts_sample.json');
+const limit = parseInt(process.argv[4]) || 10;
 
-extractTranscripts(inputFiles, outputFile)
+extractTranscripts(inputFiles, outputFile, limit)
   .catch(err => {
     console.error('Fatal error:', err);
     process.exit(1);
