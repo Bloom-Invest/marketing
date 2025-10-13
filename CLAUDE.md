@@ -6,24 +6,29 @@ A collection of tools for extracting and analyzing transcripts from social media
 
 ```
 .
-├── context/                      # Input data (scraped social media posts)
+├── data/                         # Raw scraped data & extracted transcripts
 │   ├── tiktok_scraped_posts.json       # 644 TikTok videos
 │   ├── tiktok_scraped_posts_2.json     # 873 TikTok videos
 │   ├── instagram_scraped_posts.json    # Instagram video posts
-│   └── viral_hooks.csv                 # Analyzed viral hooks
-├── docs/                         # Documentation
-├── full_transcripts/            # Final output files
-│   ├── tiktok_transcripts.json        # All TikTok transcripts
-│   └── instagram_transcripts.json     # All Instagram transcripts
-├── scripts/                      # Extraction & processing scripts
+│   └── full_transcripts/               # Extracted transcripts
+│       ├── tiktok_transcripts.json        # All TikTok transcripts
+│       └── instagram_transcripts.json     # All Instagram transcripts
+├── ideas/                        # AI-generated analysis & insights
+│   ├── *_VIDEO_IDEAS.md                # Video concept documents
+│   ├── VIRAL_CONTENT_INSIGHTS_REPORT.md
+│   ├── viral_hooks.csv
+│   └── viral_pattern_analysis.json
+├── content/                      # Finished storyboards & scripts
+├── utils/                        # Extraction, processing & test scripts
 │   ├── extract_transcripts.js
 │   ├── extract_transcripts_sample.js
 │   ├── extract_transcripts_parallel.js
 │   ├── merge_transcripts.js
 │   ├── extract_instagram_deepgram.js
 │   ├── extract_instagram_transcripts.sh
-│   └── merge_instagram_transcripts.js
-├── test/                         # Test scripts
+│   ├── merge_instagram_transcripts.js
+│   ├── test_deepgram_flux.sh
+│   └── test_deepgram_one.js
 ├── Makefile                      # Automation commands
 └── README.md
 ```
@@ -69,7 +74,7 @@ make extract-all           # Process sequentially
 2. **Extract URLs** - Gets English subtitle links from `videoMeta.subtitleLinks[]`
 3. **Fetch VTT** - Downloads WebVTT subtitle files via HTTPS
 4. **Parse Format** - Removes WebVTT headers, timestamps, and line numbers
-5. **Output JSON** - Saves to `full_transcripts/tiktok_transcripts.json`
+5. **Output JSON** - Saves to `data/full_transcripts/tiktok_transcripts.json`
 
 ### Results
 
@@ -127,7 +132,7 @@ make extract-instagram-5       # Process first 5 videos (local whisper.cpp)
 make extract-instagram-20      # Process first 20 videos (local whisper.cpp)
 
 # Full extraction with Deepgram (not yet in Makefile)
-# Run manually: node scripts/extract_instagram_deepgram_parallel.js
+# Run manually: node utils/extract_instagram_deepgram_parallel.js
 ```
 
 ### Technical Details
@@ -228,9 +233,9 @@ make clean  # Removes all generated transcript files and batch files
 ## Development Notes
 
 ### Important Paths
-- All scripts in `scripts/` use `path.join(__dirname, '../...')` for relative paths
+- All scripts in `utils/` use `path.join(__dirname, '../...')` for relative paths
 - Makefile runs from workspace root
-- Output goes to `full_transcripts/` directory
+- Output goes to `data/full_transcripts/` directory
 - Batch files are temporary and auto-deleted after merging
 
 ### Troubleshooting

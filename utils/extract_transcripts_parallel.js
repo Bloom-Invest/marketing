@@ -1,5 +1,6 @@
 const fs = require('fs');
 const https = require('https');
+const { spawn } = require('child_process');
 
 /**
  * Parse WebVTT subtitle content and extract clean transcript text
@@ -65,16 +66,13 @@ function loadVideos(inputFiles) {
 }
 
 /**
- * Extract transcripts from TikTok scraper JSON (sample version)
- * @param {string|string[]} inputFiles - Path(s) to tiktok_scraper.json
+ * Extract transcripts from a batch of videos
+ * @param {Array} videos - Array of video objects
  * @param {string} outputFile - Path to save transcripts
- * @param {number} limit - Number of videos to process (default: 10)
+ * @param {number} batchNum - Batch number for logging
  */
-async function extractTranscripts(inputFiles, outputFile, limit = 10) {
-  const allVideos = loadVideos(inputFiles);
-  const videos = allVideos.slice(0, limit);
-
-  console.log(`\nProcessing first ${videos.length} of ${allVideos.length} total videos...`);
+async function extractBatch(videos, outputFile, batchNum) {
+  console.log(`[Batch ${batchNum}] Processing ${videos.length} videos...`);
   const results = [];
   let processed = 0;
   let withSubtitles = 0;
@@ -140,7 +138,9 @@ async function extractTranscripts(inputFiles, outputFile, limit = 10) {
       }
 
       try {
-        console.log(`  [${processed}/${videos.length}] Fetching ${subtitleInfo.language} for video ${video.id}...`);
+        if (processed % 10 === 0) {
+          console.log(`[Batch ${batchNum}] Progress: ${processed}/${videos.length}`);
+        }
         const vtt = await fetchURL(url);
         const transcript = parseVTT(vtt);
 
@@ -152,7 +152,6 @@ async function extractTranscripts(inputFiles, outputFile, limit = 10) {
         });
       } catch (err) {
         errors++;
-        console.error(`  Error fetching subtitle for video ${video.id}: ${err.message}`);
         videoData.transcripts.push({
           language: subtitleInfo.language,
           error: err.message
@@ -164,30 +163,69 @@ async function extractTranscripts(inputFiles, outputFile, limit = 10) {
   }
 
   // Save results
-  console.log(`\nSaving results to ${outputFile}...`);
+  console.log(`[Batch ${batchNum}] Saving results to ${outputFile}...`);
   fs.writeFileSync(outputFile, JSON.stringify(results, null, 2));
 
-  console.log(`\nCompleted!`);
-  console.log(`  Total videos processed: ${processed} of ${allVideos.length}`);
-  console.log(`  Videos with subtitles: ${withSubtitles}`);
+  console.log(`[Batch ${batchNum}] Completed!`);
+  console.log(`  Total videos: ${processed}`);
+  console.log(`  Videos with English subtitles: ${withSubtitles}`);
   console.log(`  Errors: ${errors}`);
-  console.log(`  Output: ${outputFile}`);
+}
+
+/**
+ * Process videos in parallel batches
+ */
+async function processInParallel() {
+  const path = require('path');
+  const inputFiles = [
+    path.join(__dirname, '../data/tiktok_scraped_posts.json'),
+    path.join(__dirname, '../data/tiktok_scraped_posts_2.json')
+  ];
+  const allVideos = loadVideos(inputFiles);
+  const numBatches = 10;
+  const batchSize = Math.ceil(allVideos.length / numBatches);
+
+  console.log(`\nSplitting ${allVideos.length} videos into ${numBatches} batches (~${batchSize} videos each)...`);
+  console.log(`Starting parallel processing...\n`);
+
+  const batches = [];
+  for (let i = 0; i < numBatches; i++) {
+    const start = i * batchSize;
+    const end = Math.min(start + batchSize, allVideos.length);
+    const batchVideos = allVideos.slice(start, end);
+    const outputFile = path.join(__dirname, `../tiktok_transcripts_batch_${i + 1}.json`);
+
+    batches.push({
+      videos: batchVideos,
+      outputFile,
+      batchNum: i + 1
+    });
+  }
+
+  // Process all batches in parallel
+  const promises = batches.map(batch =>
+    extractBatch(batch.videos, batch.outputFile, batch.batchNum)
+  );
+
+  await Promise.all(promises);
+
+  console.log(`\n${'='.repeat(50)}`);
+  console.log(`All batches completed!`);
+  console.log(`Output files:`);
+  for (let i = 1; i <= numBatches; i++) {
+    console.log(`  - tiktok_transcripts_batch_${i}.json`);
+  }
+  console.log(`\nTo merge all batches into one file, run:`);
+  console.log(`  node utils/merge_transcripts.js`);
 }
 
 // Main execution
-const path = require('path');
+if (require.main === module) {
+  processInParallel()
+    .catch(err => {
+      console.error('Fatal error:', err);
+      process.exit(1);
+    });
+}
 
-const inputFiles = process.argv[2]
-  ? [process.argv[2]]
-  : [
-      path.join(__dirname, '../context/tiktok_scraped_posts.json'),
-      path.join(__dirname, '../context/tiktok_scraped_posts_2.json')
-    ];
-const outputFile = process.argv[3] || path.join(__dirname, '../full_transcripts/tiktok_transcripts_sample.json');
-const limit = parseInt(process.argv[4]) || 10;
-
-extractTranscripts(inputFiles, outputFile, limit)
-  .catch(err => {
-    console.error('Fatal error:', err);
-    process.exit(1);
-  });
+module.exports = { extractBatch, loadVideos };

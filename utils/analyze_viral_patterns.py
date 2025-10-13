@@ -246,7 +246,7 @@ def analyze_author_patterns(videos):
 
 def main():
     print("Loading TikTok transcripts data...")
-    data = load_data('../full_transcripts/tiktok_transcripts.json')
+    data = load_data('../data/full_transcripts/tiktok_transcripts.json')
     print(f"Loaded {len(data)} videos with transcripts\n")
 
     print("=" * 80)

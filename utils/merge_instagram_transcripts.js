@@ -20,9 +20,9 @@ for (let i = 1; i <= 10; i++) {
 }
 
 console.log(`\nTotal: ${allTranscripts.length} videos`);
-const outputFile = path.join(parentDir, 'full_transcripts', 'instagram_transcripts.json');
+const outputFile = path.join(parentDir, 'data', 'full_transcripts', 'instagram_transcripts.json');
 fs.writeFileSync(outputFile, JSON.stringify(allTranscripts, null, 2));
-console.log('Saved to full_transcripts/instagram_transcripts.json');
+console.log('Saved to data/full_transcripts/instagram_transcripts.json');
 
 console.log('\nCleaning up batch files...');
 batchFiles.forEach(f => {

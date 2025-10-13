@@ -22,43 +22,43 @@ help:
 
 extract-sample:
 	@echo "Extracting TikTok transcripts from first 10 videos..."
-	node scripts/extract_transcripts_sample.js "" ./full_transcripts/tiktok_transcripts_sample.json 10
+	node utils/extract_transcripts_sample.js "" ./data/full_transcripts/tiktok_transcripts_sample.json 10
 
 extract-sample-5:
 	@echo "Extracting TikTok transcripts from first 5 videos..."
-	node scripts/extract_transcripts_sample.js "" ./full_transcripts/tiktok_transcripts_sample.json 5
+	node utils/extract_transcripts_sample.js "" ./data/full_transcripts/tiktok_transcripts_sample.json 5
 
 extract-sample-20:
 	@echo "Extracting TikTok transcripts from first 20 videos..."
-	node scripts/extract_transcripts_sample.js "" ./full_transcripts/tiktok_transcripts_sample.json 20
+	node utils/extract_transcripts_sample.js "" ./data/full_transcripts/tiktok_transcripts_sample.json 20
 
 extract-all:
 	@echo "Extracting TikTok transcripts from all videos (English only, sequential)..."
-	node scripts/extract_transcripts.js "" ./full_transcripts/tiktok_transcripts.json
+	node utils/extract_transcripts.js "" ./data/full_transcripts/tiktok_transcripts.json
 
 extract-all-parallel:
 	@echo "Extracting TikTok transcripts in parallel (English only, 10 batches)..."
-	node scripts/extract_transcripts_parallel.js
+	node utils/extract_transcripts_parallel.js
 
 merge-transcripts:
 	@echo "Merging batch files into single transcript file..."
-	node scripts/merge_transcripts.js
+	node utils/merge_transcripts.js
 
 extract-instagram:
 	@echo "Extracting Instagram transcripts from first 10 videos..."
-	./scripts/extract_instagram_transcripts.sh ./context/instagram_scraped_posts.json ./full_transcripts/instagram_transcripts.json 10 base
+	./utils/extract_instagram_transcripts.sh ./data/instagram_scraped_posts.json ./data/full_transcripts/instagram_transcripts.json 10 base
 
 extract-instagram-5:
 	@echo "Extracting Instagram transcripts from first 5 videos..."
-	./scripts/extract_instagram_transcripts.sh ./context/instagram_scraped_posts.json ./full_transcripts/instagram_transcripts.json 5 base
+	./utils/extract_instagram_transcripts.sh ./data/instagram_scraped_posts.json ./data/full_transcripts/instagram_transcripts.json 5 base
 
 extract-instagram-20:
 	@echo "Extracting Instagram transcripts from first 20 videos..."
-	./scripts/extract_instagram_transcripts.sh ./context/instagram_scraped_posts.json ./full_transcripts/instagram_transcripts.json 20 base
+	./utils/extract_instagram_transcripts.sh ./data/instagram_scraped_posts.json ./data/full_transcripts/instagram_transcripts.json 20 base
 
 clean:
 	@echo "Cleaning generated transcript files..."
-	rm -f full_transcripts/tiktok_transcripts.json full_transcripts/tiktok_transcripts_sample.json full_transcripts/instagram_transcripts.json
+	rm -f data/full_transcripts/tiktok_transcripts.json data/full_transcripts/tiktok_transcripts_sample.json data/full_transcripts/instagram_transcripts.json
 	rm -f tiktok_transcripts_batch_*.json instagram_transcripts_batch_*.json
 	rm -rf temp_instagram_videos models
 	@echo "Done!"

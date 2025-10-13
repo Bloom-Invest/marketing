@@ -233,9 +233,9 @@ Most common words reveal content focus:
 
 ## Data Sources
 
-- **Full dataset**: `/full_transcripts/instagram_transcripts.json`
-- **Analysis output**: `/full_transcripts/viral_analysis.json`
-- **Analysis script**: `/scripts/analyze_viral_patterns.js`
+- **Full dataset**: `/context/full_transcripts/instagram_transcripts.json`
+- **Analysis output**: `/context/full_transcripts/viral_analysis.json`
+- **Analysis script**: `/utils/analyze_viral_patterns.js`
 
 ---
 

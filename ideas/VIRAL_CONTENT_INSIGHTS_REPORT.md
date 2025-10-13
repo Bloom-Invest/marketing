@@ -677,8 +677,8 @@ All analysis data available at:
 - `/Users/ericxiao/Documents/conductor/marketing/.conductor/pattaya/context/viral_content_examples.json`
 
 Analysis scripts:
-- `/Users/ericxiao/Documents/conductor/marketing/.conductor/pattaya/scripts/analyze_viral_patterns.py`
-- `/Users/ericxiao/Documents/conductor/marketing/.conductor/pattaya/scripts/extract_viral_content_examples.py`
+- `/Users/ericxiao/Documents/conductor/marketing/.conductor/pattaya/utils/analyze_viral_patterns.py`
+- `/Users/ericxiao/Documents/conductor/marketing/.conductor/pattaya/utils/extract_viral_content_examples.py`
 
 ---
 

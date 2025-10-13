@@ -91,7 +91,7 @@ def analyze_content_structure(transcript):
 
 def main():
     print("Loading TikTok transcripts data...")
-    data = load_data('../full_transcripts/tiktok_transcripts.json')
+    data = load_data('../data/full_transcripts/tiktok_transcripts.json')
 
     # Sort by engagement rate
     videos_with_engagement = []

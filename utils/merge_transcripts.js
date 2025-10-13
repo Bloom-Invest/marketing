@@ -32,12 +32,12 @@ if (allTranscripts.length === 0) {
 }
 
 console.log(`\nTotal videos: ${allTranscripts.length}`);
-console.log('Saving to full_transcripts/tiktok_transcripts.json...');
+console.log('Saving to data/full_transcripts/tiktok_transcripts.json...');
 
-const outputFile = path.join(parentDir, 'full_transcripts', 'tiktok_transcripts.json');
+const outputFile = path.join(parentDir, 'data', 'full_transcripts', 'tiktok_transcripts.json');
 fs.writeFileSync(outputFile, JSON.stringify(allTranscripts, null, 2));
 
-console.log('Done! Output saved to full_transcripts/tiktok_transcripts.json');
+console.log('Done! Output saved to data/full_transcripts/tiktok_transcripts.json');
 
 // Clean up batch files
 console.log('\nCleaning up batch files...');
