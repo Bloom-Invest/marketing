@@ -1,3 +1,9 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║    "WHY YOUR PORTFOLIO RETURNED 6% WHILE MARKETS RETURNED 18%"                ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+Duration: 12-16s  |  Hook Time: 0-3s  |  Expected Engagement: 500K+ views
+
 # Why your portfolio returned 6% while markets returned 18%
 
 ## Concept
