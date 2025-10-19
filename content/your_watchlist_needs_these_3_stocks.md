@@ -1,45 +1,122 @@
-# Your watchlist needs these 3 stocks
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                   #26: YOUR WATCHLIST NEEDS THESE 3 STOCKS                     ║
+╚════════════════════════════════════════════════════════════════════════════════╝
 
-## Concept
-Day 26 slideshow concept for Bloom AI
+CONCEPT: Curated stock picks from AI analysis - urgent, actionable, specific
 
-## Hook
-Add these 3 stocks to your watchlist NOW
+TARGET: 950K+ views | 7.2%+ engagement | 1.5%+ share rate
+LENGTH: 35 seconds
 
-## Storyboard
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FRAME 1 (0-3s) - THE HOOK                                                   │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│     ⚠️ "Add these 3 stocks to your watchlist NOW"                           │
+│                                                                              │
+│     [INTENSE EYE CONTACT]                                                   │
+│     [TEXT: URGENT 🚨]                                                        │
+│     [VISUAL: Alarm clock ticking]                                           │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
 
-### Slide 1
-**Visual:** [Description needed]
-**Text Overlay:** Add these 3 stocks to your watchlist NOW
-**Duration:** 3-4 seconds
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FRAME 2 (3-13s) - STOCK #1                                                  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   #1: CROWDSTRIKE (CRWD)                                                    │
+│   ═════════════════════════                                                 │
+│                                                                              │
+│   📊 Bloom Score: 8.7/10                                                    │
+│                                                                              │
+│   💡 Why: Cybersecurity demand exploding                                    │
+│       40% YoY revenue growth                                                │
+│       Fortune 500 adoption accelerating                                     │
+│                                                                              │
+│   🎯 Entry Point: Under $285                                                │
+│                                                                              │
+│   [GRAPHIC: Stock chart with buy zone highlighted]                          │
+│   [ANIMATION: Bloom AI score meter rising]                                  │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
 
-### Slide 2
-**Visual:** [Description needed]
-**Text Overlay:** Stock #1 with 1-sentence thesis
-**Duration:** 3-4 seconds
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FRAME 3 (13-23s) - STOCK #2                                                 │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   #2: NVIDIA (NVDA)                                                         │
+│   ══════════════════                                                        │
+│                                                                              │
+│   📊 Bloom Score: 8.9/10                                                    │
+│                                                                              │
+│   💡 Why: AI chip monopoly                                                  │
+│       Every AI company needs them                                           │
+│       Demand > Supply for 18+ months                                        │
+│                                                                              │
+│   🎯 Entry Point: Any dip under $850                                        │
+│                                                                              │
+│   [GRAPHIC: AI infrastructure diagram with Nvidia at center]                │
+│   [TEXT FLASH: "THE PICKS AND SHOVELS PLAY"]                                │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
 
-### Slide 3
-**Visual:** [Description needed]
-**Text Overlay:** Stock #2 with 1-sentence thesis
-**Duration:** 3-4 seconds
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FRAME 4 (23-33s) - STOCK #3                                                 │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   #3: MONGODB (MDB)                                                         │
+│   ══════════════════                                                        │
+│                                                                              │
+│   📊 Bloom Score: 8.2/10                                                    │
+│                                                                              │
+│   💡 Why: Database infrastructure for AI                                    │
+│       85% gross margins                                                     │
+│       Every AI app needs database layer                                     │
+│                                                                              │
+│   🎯 Entry Point: Watch for pullback to $420                                │
+│                                                                              │
+│   [GRAPHIC: Tech stack visualization]                                       │
+│   [TEXT: "HIDDEN GEM 💎"]                                                   │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
 
-### Slide 4
-**Visual:** [Description needed]
-**Text Overlay:** Stock #3 with 1-sentence thesis + Research on Bloom AI
-**Duration:** 3-4 seconds
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FRAME 5 (33-35s) - RAPID CTA                                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   "Full research on all 3 → Bloom AI"                                       │
+│                                                                              │
+│   [SHOW: Bloom AI dashboard with detailed analysis]                         │
+│   [TEXT: LINK IN BIO 🔗]                                                    │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
 
-## Production Notes
-- **Format:** TikTok/Instagram Reels slideshow
-- **Total Duration:** 12-16 seconds
-- **Visual Style:** Bold text, high contrast, dark background
-- **Transitions:** Fast cuts (0.5-1 second between slides)
-- **Audio:** Trending TikTok sound or TTS voiceover
-- **CTA:** Link in bio to Bloom AI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## Target Metrics
-- 500K+ views
-- 5%+ engagement rate
-- 1%+ share rate
+PRODUCTION NOTES:
+• Ultra-fast pacing (35 seconds for 3 stocks)
+• Each stock gets ~10 seconds
+• Urgency throughout (NOW, watch for, entry points)
+• Specific numbers build credibility
+• Clear action items (entry points)
+• Visual hierarchy: Score → Why → Entry
 
-## Hashtags
-#BloomAI #StockResearch #Investing #FinanceTikTok #StockMarket #ValueInvesting #MoneyTok
+ENGAGEMENT STRATEGY:
+• Creates urgency with "NOW" and "watchlist"
+• Specific entry points = actionable
+• Mix of well-known (NVDA) + hidden gem (MDB)
+• Theme: AI infrastructure play (cohesive thesis)
+• Bloom scores add authority
+
+VARIATIONS:
+• "3 defensive stocks for recession"
+• "3 dividend stocks paying 5%+"
+• "3 small-caps before they explode"
+• "3 stocks Warren Buffett wishes he bought"
+
+VIRAL HOOKS:
+✓ Urgency language (NOW, watchlist)
+✓ Authority (Bloom AI scores)
+✓ Specificity (exact entry points)
+✓ Thematic coherence (AI infrastructure)
+✓ Hidden gem appeal (#3)
+✓ Actionable immediacy
