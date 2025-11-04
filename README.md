@@ -16,7 +16,7 @@ Every storyboard includes:
 ```
 storyboards/          Video ideas
 research/             Scraped popular videos with transcripts & metrics
-production_assets/    Bloom images and videos
+assets/               Bloom images and videos
 CLAUDE.md             AI storyboard guide
 ```
 
@@ -41,11 +41,11 @@ CLAUDE.md             AI storyboard guide
 **300+ ready-to-use assets** organized for creators:
 
 ```
-production_assets/
+assets/
 ├── videos/              12 product demos, tutorials, UGC clips
 ├── images/              57 icons, logos, illustrations, overlays
 ├── social_media/        150+ screenshots, collection covers, thumbnails
 └── ui_components/       69 navigation, ratings, subscription assets
 ```
 
-**→ See `production_assets/INDEX.md` for asset locations**
+**→ See `assets/INDEX.md` for asset locations**
