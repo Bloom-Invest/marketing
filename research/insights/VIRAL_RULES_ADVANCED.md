@@ -247,6 +247,62 @@ Frame your product as **protection** not **promotion**. Make the viewer feel you
 - "This tool lied to me and cost me $8K..."
 - "I tested two AIs with real money. Here's what happened..."
 
+### Additional Story Frameworks
+
+**Problem-Solution Framework** (Linear, straightforward)
+1. Hook: Catch attention by introducing relatable problem
+2. Problem: Show pain point in detail
+3. Solution: Highlight how product solves issue
+4. CTA: Prompt action
+
+Finance example:
+- Hook: "I was tired of missing earnings reports that tanked my stocks"
+- Problem: "I'd wake up to -15% losses because I didn't check catalyst calendars"
+- Solution: "Bloom AI alerts me before any major event"
+- CTA: "Link in bio so you never get caught off guard"
+
+**Intriguing Storyline Format** (Builds urgency)
+1. Hook: Emotional or surprising statement
+2. Deepen Issue: Explain problem further
+3. Solution: Introduce product
+4. Benefits & Results: Share outcomes
+5. Fear Factor: Add urgency
+
+Finance example:
+- Hook: "Did you know 78% of retail investors lose money in their first year?"
+- Deepen: "Most don't realize they're buying overvalued stocks"
+- Solution: "This tool shows valuation warnings before you buy"
+- Benefits: "I avoided 4 bad trades in my first month"
+- Fear: "The longer you invest blind, the more you lose"
+
+**Educational Framework** (Question-driven)
+1. Hook: Pose question or interesting fact
+2. Question: Ask what audience wants answered
+3. Explanation: Teach while introducing product
+4. Benefits & Results: Show effectiveness
+
+Finance example:
+- Hook: "Why do most stocks drop after you buy them?"
+- Question: "How do you stop buying at the top?"
+- Explanation: "You need real-time valuation data, not just price charts"
+- Benefits: "Bloom AI shows if you're buying high—before you click buy"
+
+**H Storyline Framework** (Subtle product placement)
+1. Hook: Bold or intriguing statement
+2. Storyline: Walk through problem and solution
+3. Product Introduction: Subtly showcase product
+
+Finance example:
+- Hook: "How I stopped losing money on hype stocks"
+- Storyline: "I check three things now: insider trades, valuation, and risk score"
+- Product: "All in one place on Bloom AI"
+
+**Framework Selection Guide**:
+- Use Problem-Solution for clarity (low friction audience)
+- Use Intriguing Storyline for engagement (skeptical audience)
+- Use Educational for authority building (teach-first approach)
+- Use H Storyline for subtle positioning (anti-ad approach)
+
 ---
 
 ## Drop-Off Analysis Framework
