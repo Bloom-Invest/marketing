@@ -1,63 +1,151 @@
 # Bloom Brand Voice
 
-*One doc. Every surface — app copy, blog posts, social, support, investor updates — sounds like the same person.*
+*Distilled from Eric's actual writing across mycrystalball.substack.com, his guest post on Aman Khan's AI Product Playbook, and @exiao3 on X/Twitter.*
 
-## Who We Sound Like
+---
 
-Eric explaining Bloom to a smart friend over drinks. Direct, specific, occasionally profane. PM-brained — thinks in systems, explains with examples, respects the reader's time.
+## Who Eric Sounds Like
+
+A solo founder-builder who ships fast, explains by showing, and treats the reader as a peer. Part PM, part engineer, part investing nerd. Thinks in systems, teaches by walking through real examples, and isn't afraid to share what didn't work.
+
+## Voice Fingerprint
+
+These patterns show up consistently across all three sources:
+
+### 1. Leads with a concrete moment, not a thesis
+- "11:47pm, Wednesday. I'm in bed, half-asleep. Phone buzzes." (blog)
+- "I've somehow used 2.4B tokens in the last month serving Bloom 🤯" (tweet)
+- "I set a personal record by running 12 Claude code instances in parallel" (tweet)
+- "I recently showcased 20 different tactics I use to build a 1-person startup" (tweet)
+
+Eric never starts with abstractions. He starts with what happened, then zooms out.
+
+### 2. Shows the work, not the conclusion
+- Walks through an entire HIMS research session step by step (blog)
+- Screenshots of actual terminals, actual Bloom UI, actual data (tweets)
+- "I purchased the domain, developed both the frontend and backend, and tested my workflow live" (tweet)
+- "We call it agile, but it's really waterfall with standups" (Substack guest post)
+
+He doesn't claim things work — he shows them working. With screenshots, numbers, and real tickers.
+
+### 3. Specific numbers, always
+- "2.4B tokens" not "a lot of tokens"
+- "1,700 commits in the last 8 months" not "a ton of code"
+- "78% in the last month" not "significant returns"
+- "50% gold 50% SPY portfolio returns almost the same with half the max drawdown"
+- "700 million other people" not "millions of users"
+
+If there's a number, Eric uses the actual number. Vague quantifiers ("many," "significant," "substantial") are almost never present.
+
+### 4. Builder-educator hybrid
+Tweets and posts blend "here's what I built" with "here's how you can too":
+- "It's fully open source, and you can find it at..." 
+- "If you follow the steps below, you'll be able to build high quality, working prototypes with just a single sentence"
+- "I decided to test how fast I could create and deploy a site from scratch"
+- "You can ship a bug fix in four clicks!"
+
+Not lecturing. Not selling. Teaching by doing, in public.
+
+### 5. Personal vulnerability mixed with confidence
+- "Every year, I set goals like `cook more` (still can't), `learn Chinese` (不会说), and `get to $1M ARR` (not even close)"
+- "Happiness is not in the achievement of goals, but in 'removing the sense that something is missing'"
+- "I've been extraordinarily blessed in my career and would love to support those in need"
+- Shares losses and missed trades alongside wins
+
+Eric is openly imperfect. This is rare in tech/investing content and builds trust fast.
+
+### 6. Frameworks > opinions
+- "Gulf of evaluation" (UX concept applied to AI prompting)
+- "Prompt, Evaluate, Iterate" (proposed new shipping model)
+- "A picture collapses ambiguity" (why ASCII wireframes work)
+- "The todo list lets Claude plan first before doing work" (system design insight)
+
+He names the pattern, then shows it in action. Frameworks stick; opinions fade.
+
+---
 
 ## What We Do NOT Sound Like
 
-- ❌ A robo-advisor ("optimize your portfolio allocation")
-- ❌ A fintech bro ("maximize alpha," "LFG")
-- ❌ A corporate blog ("we're excited to announce," "in this article we'll explore")
-- ❌ A textbook ("it is important to consider," "one should note that")
-- ❌ A hype machine ("game-changing," "revolutionary," "disruptive")
-- ❌ A hedge ("this is not financial advice" every other paragraph)
+- ❌ **Robo-advisor**: "optimize your portfolio allocation," "maximize alpha"
+- ❌ **Fintech bro**: "LFG," "to the moon," hype without substance
+- ❌ **Corporate blog**: "we're excited to announce," "in this article we'll explore"
+- ❌ **Textbook**: "it is important to consider," "one should note that"
+- ❌ **Hype machine**: "game-changing," "revolutionary," "disruptive"
+- ❌ **Constant disclaimers**: hedging every statement with "this is not financial advice"
 
-## Voice Rules
+---
+
+## Writing Rules
 
 ### Tone
-- **Conversational first.** Write like you talk. If you wouldn't say it out loud, cut it.
-- **Opinionated.** Take a stance. "This stock is expensive" beats "valuations appear elevated relative to historical averages."
-- **Honest about limits.** Say what the AI can't do. Say when a stock is risky. Credibility > hype.
-- **Irreverent but not reckless.** Occasional profanity is fine. Punching down isn't.
+- **Conversational.** Write like you talk. If you wouldn't say it to a friend, cut it.
+- **Opinionated.** "This stock is expensive" > "valuations appear elevated relative to historical averages."
+- **Honest about limits.** Say what the AI can't do. Say when you got it wrong. Credibility > hype.
+- **Irreverent but kind.** Occasional profanity is fine. Punching down isn't. Generosity runs through the voice (free courses for unemployed PMs, open-sourcing work).
 
 ### Structure
-- **Lead with the payoff.** Open with the insight, not the setup.
+- **Lead with the payoff.** Start with what happened, not why it matters.
 - **Short paragraphs.** 1-3 sentences. Walls of text lose people.
-- **Concrete > abstract.** "Revenue grew 69% to $1.5B" beats "the company experienced significant growth."
-- **Numbers earn trust.** Use specific data. "$405.23" not "around $400."
-- **Show, don't tell.** Don't say it's effective — show the result that proves it.
+- **Concrete > abstract.** "Revenue grew 69% to $1.5B" > "significant growth."
+- **Numbers earn trust.** Use the actual number. "$405.23" not "around $400."
+- **Show, don't tell.** Don't say it works — show the output, the screenshot, the result.
+- **End with an action.** Link to the thing. Share the code. Give them a next step.
 
 ### Formatting
-- Use **bold** for emphasis, not ALL CAPS (except rare moments)
-- Markdown tables: max 2-3 columns, use sparingly
-- H2 headers should be interesting, not generic ("The Bear Case Is More Valuable" not "Analysis")
-- Bullet lists for scannable info, prose for narrative
+- **Bold** for emphasis, not ALL CAPS (except rare moments for humor)
 - Tickers get @ prefix: @AAPL, @TSLA
+- Backticks for code/technical terms: `AGENTS.md`, `coding agents`, `todo list tool`
+- Screenshots > descriptions whenever possible
+- H2 headers should be interesting, not generic
+- Emojis: sparingly in tweets (🤯, 😅), almost never in long-form
+
+### Twitter/X Specific
+- Open with the hook in the first tweet, not the context
+- Thread format: each post stands alone as a thought
+- Screenshots of terminals, UIs, data — visual proof
+- "Build in public" energy — share the process, not just the result
+- Light self-deprecation ("12 Claude code instances in parallel 😅")
+- Link drops in replies, not the main tweet
+
+### Long-Form Specific  
+- Open with a specific moment (time, place, what you were doing)
+- Walk through a real example end to end, not abstract principles
+- Name real companies, real tickers, real numbers
+- Acknowledge what doesn't work alongside what does
+- Close with a clear, actionable takeaway — not a vague "food for thought"
+
+---
 
 ## Reader Context
 
-Bloom's users range from beginners to experienced investors. Knowing *who* you're writing for matters more than memorizing style rules:
-
 | Reader | They need | Avoid |
 |--------|-----------|-------|
-| **Beginner** | Plain English, context for jargon, encouragement | Assuming they know what a P/E ratio is |
-| **Intermediate** | Actionable frameworks, specific examples, honest risk assessment | Talking down, oversimplifying |
-| **Advanced** | Data, methodology, edge, tools | Fluff, hand-holding, surface-level takes |
+| **Beginner investor** | Plain English, context for jargon, encouragement | Assuming they know what P/E means |
+| **Intermediate investor** | Actionable frameworks, specific examples, honest risk assessment | Talking down, oversimplifying |
+| **Advanced/quant** | Data, methodology, edge, tools | Fluff, hand-holding |
+| **PM/builder** | Practical how-to, real screenshots, time-to-value | Abstract theory, no working demo |
 
-Always write for intermediate by default. Explain jargon inline when it first appears. Never make the reader feel stupid.
+Default: write for the intermediate. Explain jargon inline when it first appears. Never make the reader feel stupid.
+
+---
 
 ## Domain Knowledge (separate from tone)
 
-These are Bloom's investing principles — what we believe, not how we say it:
+### Investing Principles
+- Value investing framework. Fundamentals > momentum.
+- Key drivers > headline metrics. EPS is lagging. What *actually* moves the stock?
+- Bull AND bear. Every thesis needs both sides.
+- AI as analyst, human as decision-maker. AI does research. You make the call.
+- Diversification matters. "A 50% gold 50% SPY portfolio returns almost the same with half the max drawdown."
 
-- **Value investing framework.** We look at fundamentals, not momentum or vibes.
-- **Key drivers > headline metrics.** EPS is a lagging indicator. What *actually* moves the stock?
-- **Bull AND bear.** Every investment thesis needs both sides. The bear case is more valuable.
-- **AI as analyst, human as decision-maker.** The AI does research. You make the call.
-- **Respect the chart, but don't worship it.** Technicals inform timing, fundamentals drive conviction.
+### Building/Product Principles
+- Ship prototypes, not specs. "The magical part is that you can't feel a spec. But you can feel the UI."
+- Context engineering > prompt engineering. Onboard your AI like you'd onboard a coworker.
+- Evals > vibes. Test what breaks. Fix what tests catch.
+- Solo founder leverage. Automate what you can't hire for.
+- Build in public. Share the process, earn trust, attract users.
+
+---
 
 ## Anti-Patterns (accumulated corrections)
 
@@ -67,17 +155,20 @@ Things we've caught and fixed — don't repeat these:
 - Don't restate what you just said in different words
 - Don't wrap up sections with mini-summaries ("As we've seen...")
 - Don't qualify everything ("It's worth noting that perhaps...")
-- Don't use "leverage" as a verb for anything other than actual financial leverage
+- Don't use "leverage" as a verb unless you mean financial leverage
 - Don't say "deep dive" — just go deep
 - Don't end with generic CTAs ("Start your investing journey today!")
-- Don't use emojis in long-form writing unless the reader asks
-
-## The Test
-
-Before publishing anything, ask: *Would Eric actually say this to a friend?*
-
-If the answer is no, rewrite it until the answer is yes.
+- Don't use emojis in long-form writing unless quoting tweets
+- Don't describe what you're about to do ("In this section, I'll explain...")
 
 ---
 
-*Update this doc every time you edit AI-generated copy. Write down WHY you changed it. After a few weeks, the style guide writes itself.*
+## The Test
+
+Before publishing: **Would Eric actually say this to a friend over drinks?**
+
+If no, rewrite until yes.
+
+---
+
+*Update this doc every time you edit AI-generated copy. Write down WHY you changed it.*
