@@ -69,7 +69,7 @@ Inside the architecture of Bloom's agentic system — the prompt philosophy, too
 
 ---
 
-# My AI Investing Agent Calls 17 Tools and Grades Its Own Work. Here's How It All Fits Together.
+# Building an AI Investing Research Agent
 
 *Inside Bloom's agentic architecture — the prompt philosophy, tool design, research chaining, and the 224-test benchmark that keeps it honest.*
 
