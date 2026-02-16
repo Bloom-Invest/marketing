@@ -55,27 +55,27 @@
 
 # I Asked My Terminal to Download Every NVDA Insider Trade From the Last Year. It Built Me a Spreadsheet in 90 Seconds.
 
-*Claude Code isn't a chatbot. It's a coding agent that lives in your terminal. For investment research, it's the most underrated tool I've ever used.*
+*Claude Code isn't a chatbot. It's a coding agent that lives in your terminal. For investment research, it's the most underrated tool I've used.*
 
 ---
 
-1am on a Thursday. Three Red Bulls deep. I'm on page 87 of Nvidia's 10-K — 214 pages total — hunting for their actual capex number because some analyst on Twitter swore they were "quietly ramping spend." I've been copy-pasting sections into ChatGPT for twenty minutes, hitting the context window limit, getting summarized gibberish back.
+1am on a Thursday. Three Red Bulls deep. Page 87 of Nvidia's 10-K — 214 pages total — hunting for their actual capex number because some analyst on Twitter swore they were "quietly ramping spend." I've been copy-pasting sections into ChatGPT for twenty minutes, hitting the context window limit, getting summarized gibberish back.
 
-Then I remember: Claude Code is running in another terminal tab.
+Claude Code is running in another terminal tab.
 
 I type: `Download NVDA's latest 10-K from SEC EDGAR. Extract revenue, operating income, net income, free cash flow, and capex for the last 5 years. Output as a CSV.`
 
 Ninety seconds. Clean spreadsheet on my desktop. Five years of data. Properly formatted. The capex number? Cell F6. The Twitter analyst was off by $2 billion.
 
-That was the moment I realized I'd been using AI wrong for investing. ChatGPT explains concepts beautifully. But for the actual *work* — pulling data, parsing filings, building models, running numbers — you need something that can touch your file system. Write and execute code. Not just talk about analysis but *do it*.
+That's when it clicked. I'd been using AI wrong for investing. ChatGPT *explains* things beautifully. But the actual work — pulling data, parsing filings, building models — needs something that can touch your file system. Write and execute code. Not talk about analysis. *Do it*.
 
 ## So What the Hell Is Claude Code?
 
 Most people — even daily Claude users — don't know this exists.
 
-Claude Code is Anthropic's command-line coding agent. Install it with `npm install -g @anthropic-ai/claude-code`, open your terminal, type `claude`, and you're talking to Claude with superpowers.
+Claude Code is Anthropic's command-line coding agent. `npm install -g @anthropic-ai/claude-code`, open terminal, type `claude`, done. Claude with superpowers.
 
-Unlike browser Claude, Claude Code can:
+Unlike browser Claude, it can:
 
 - **Read and write files** on your computer
 - **Execute shell commands** — anything you'd type in a terminal
@@ -83,31 +83,31 @@ Unlike browser Claude, Claude Code can:
 - **Hit APIs and scrape websites** — download files, pull live data
 - **Chain complex workflows** — download a PDF, parse it, extract data, build a spreadsheet, analyze the results
 
-The difference between asking a smart friend "how would I analyze this stock?" and having that friend sit down at your computer and *do the analysis*. One gives advice. The other gives you a finished spreadsheet.
+Think of it as the difference between asking a smart friend "how would I analyze this stock?" versus that friend sitting at your computer and doing the analysis. One gives advice. The other gives you a finished spreadsheet.
 
-The catch: it runs in your terminal. No pretty buttons. Just a blinking cursor and a lot of power.
+The catch: it runs in your terminal. No pretty buttons. Just a blinking cursor.
 
-## Why Investors Should Give a Damn
+## Why This Matters for Investors
 
-Most "AI for investing" content is garbage. It's all "ask ChatGPT to analyze Apple stock" — and you get a 500-word essay that sounds confident and says nothing. No numbers. No sources. Nothing you can actually use.
+Here's my problem with most "AI for investing" content. It's all "ask ChatGPT to analyze Apple stock" — and you get a 500-word essay that sounds confident and says nothing. No numbers. No sources. Nothing actionable.
 
-Real investment research isn't asking questions. It's:
+Actual investment research means:
 
 - Downloading a 200-page SEC filing and finding the three numbers that matter
 - Building a comp table across 8 companies with consistent metrics
 - Tracking insider buying patterns over 12 months
-- Running a quick backtest on a hypothesis before betting real money
+- Running a quick backtest before betting real money
 - Pulling earnings call transcripts and comparing guidance quarter-over-quarter
 
-These tasks require *doing things* — fetching files, writing code, manipulating data, producing outputs. A chatbot can talk about them. Claude Code executes them.
+These require *doing things* — fetching files, writing code, manipulating data. A chatbot talks about them. Claude Code executes them.
 
-## The Workflows That Changed How I Research
+## What I Actually Built Last Month
 
-Real things I've done in the last month. Not hypothetical.
+Not hypothetical. Real things, real outputs.
 
 ### Parse a 10-K in Seconds
 
-SEC EDGAR is free and public. It's also a UX nightmare. Finding the right filing, downloading the right format, locating the right section in 200+ pages of legalese — this is why most retail investors just read someone else's summary.
+SEC EDGAR is free and public. It's also a UX nightmare. Most retail investors just read someone else's summary because finding the right filing in the right format in 200+ pages of legalese isn't worth the pain.
 
 With Claude Code:
 
@@ -119,17 +119,17 @@ and free cash flow for the last 3 fiscal years.
 Put it in a clean markdown table.
 ```
 
-It figures out the EDGAR URL structure, downloads the filing, parses the HTML (10-Ks on EDGAR are HTML, not PDF — this matters), finds the financial statements, and extracts the exact line items. Two minutes.
+It figures out the EDGAR URL structure, downloads the filing, parses the HTML (10-Ks on EDGAR are HTML, not PDF — this matters), finds the financial statements, extracts the line items. Two minutes.
 
 Clean table I can drop into a note, spreadsheet, or blog post. No squinting at footnotes. No accidentally grabbing a non-GAAP number when I wanted GAAP.
 
 ### Build a Comp Table From Scratch
 
-CrowdStrike vs. Palo Alto Networks, Fortinet, Zscaler, SentinelOne. Revenue growth, gross margin, operating margin, FCF margin, EV/revenue, forward P/E.
+@CRWD vs. @PANW, @FTNT, @ZS, @S. Revenue growth, gross margin, operating margin, FCF margin, EV/revenue, forward P/E.
 
-Old way: five browser tabs, Yahoo Finance for each, manual spreadsheet entry, double-checking every number. Ninety minutes minimum.
+Old way: five browser tabs, Yahoo Finance for each, manual spreadsheet entry, double-checking every number. Ninety minutes if I'm lucky.
 
-Claude Code: I described what I wanted. It pulled financials for all five companies, normalized the metrics, outputted a formatted comparison. It flagged that SentinelOne's operating margin was still deeply negative while the others had turned profitable — a nuance I'd have glossed over by company three when the manual tedium won.
+Claude Code: I described what I wanted. It pulled financials for all five, normalized the metrics, output a formatted comparison. It flagged that @S's operating margin was still deeply negative while the others had turned profitable — a nuance I'd have glossed over by company three when the manual tedium set in.
 
 Four minutes.
 
@@ -144,40 +144,40 @@ bought vs sold for each. Flag net buyers.
 Save as CSV with a summary.
 ```
 
-It wrote a Python script, hit OpenInsider, parsed the HTML, grouped transactions, did the math, saved the CSV. Result: of 47 unique insiders who transacted, only 3 were net buyers. Jensen Huang sold $713 million worth of stock over the period. Yes, it's a 10b5-1 plan — but that data point matters when you're asking whether insiders think it's overvalued.
+It wrote a Python script, hit OpenInsider, parsed the HTML, grouped transactions, did the math, saved the CSV. Of 47 unique insiders who transacted, only 3 were net buyers. Jensen Huang sold $713 million worth of stock over the period. Yes, it's a 10b5-1 plan — but that data point matters when you're evaluating whether insiders think it's overvalued.
 
-By hand, this takes an hour. Realistically, I'd never have done it. Who trawls through hundreds of rows on OpenInsider manually?
+By hand? An hour, minimum. Realistically I'd never do it. Nobody trawls through hundreds of rows on OpenInsider manually.
 
 ### Backtest a Dumb Hypothesis
 
-What if you bought SPY every time VIX spiked above 30 and held for 90 days? I've seen this claim on FinTwit a hundred times, always without data.
+"Buy SPY every time VIX spikes above 30, hold for 90 days." I've seen this claim on FinTwit a hundred times, always without data.
 
-Claude Code downloaded historical VIX and SPY data, identified every VIX > 30 event since 2010, calculated 90-day forward returns for each entry. Results: average 90-day return after a VIX spike above 30: **+8.2%**. Win rate: **82%**. Random 90-day hold: +3.1%.
+Claude Code downloaded historical VIX and SPY data, identified every VIX > 30 event since 2010, calculated 90-day forward returns. Average 90-day return after a VIX spike above 30: **+8.2%**. Win rate: **82%**. Random 90-day hold: **+3.1%**.
 
-The hypothesis held up. Small sample (22 events in 14 years), so not a trading system. But actual numbers instead of vibes. Claude Code wrote the script, ran it, produced the analysis. I just asked.
+The hypothesis held up. Small sample (22 events in 14 years), so not a trading system. But actual numbers instead of vibes.
 
-## Claude Code vs. ChatGPT: The Honest Comparison
+## Claude Code vs. ChatGPT: When to Use What
 
-I use both daily.
+I use both daily. Different tools, different jobs.
 
-**ChatGPT wins when:**
-- Quick explanation needed ("What's a reverse repo?")
+**ChatGPT wins for:**
+- Quick explanations ("What's a reverse repo?")
 - Brainstorming theses ("Bull cases for nuclear energy?")
 - Debating a concept
-- Fast answer to a simple question
+- Fast answers to simple questions
 
-**Claude Code wins when:**
-- You need to *produce something* — a spreadsheet, chart, parsed dataset
-- The task involves files — downloading, reading, writing, converting
-- Multiple steps chained together — pull data, clean, analyze, output
-- You need real calculations, not approximations
-- The data exceeds a chat window
+**Claude Code wins for:**
+- Producing something — a spreadsheet, chart, parsed dataset
+- Anything involving files — downloading, reading, writing, converting
+- Multi-step chains — pull data, clean, analyze, output
+- Real calculations, not approximations
+- Data that exceeds a chat window
 
-**The mental model: ChatGPT is a brilliant conversationalist. Claude Code is a brilliant intern.** One gives ideas. The other ships deliverables.
+**ChatGPT is a brilliant conversationalist. Claude Code is a brilliant intern.** One gives ideas. The other ships deliverables.
 
-## Getting Started Without Losing Your Mind
+## How to Actually Get Started
 
-If you've never opened a terminal, this will feel intimidating. It's also not as hard as you think.
+If you've never opened a terminal, this will feel intimidating. It's also easier than you think.
 
 **What you need:**
 1. A Mac, Windows, or Linux computer
@@ -193,49 +193,47 @@ npm install -g @anthropic-ai/claude-code
 **Your first investing command:**
 Open terminal, type `claude`, then: *"Download Apple's latest quarterly earnings press release from investor.apple.com and extract the key financial metrics into a table."*
 
-Watch it figure out the URL, download the page, parse the content, produce a clean table. If that doesn't feel like magic, you're jaded.
+Watch it figure out the URL, download the page, parse the content, produce a clean table.
 
-**Tips I learned the hard way:**
+**Things I learned the hard way:**
 - **Dedicated folder.** I use `~/investing-research/` — keeps outputs organized.
 - **Specify formats.** "Save as CSV" or "markdown table" beats "show me the data."
 - **Feed errors back.** Script fails? Paste the error. It fixes itself, usually first try.
-- **Set context early.** "I'm comparing mid-cap cybersecurity: CRWD, PANW, ZS, S." Saves token burn.
+- **Set context early.** "I'm comparing mid-cap cybersecurity: @CRWD, @PANW, @ZS, @S." Saves token burn.
 
-## The Downsides Nobody Mentions
+## Where It Falls Short
 
-I'm not selling you on Claude Code. I'm telling you the truth.
+I'm not selling you on this. Here's the truth.
 
-**The terminal is genuinely scary for non-developers.** No way around it. If "open your terminal" triggers a cold sweat, this is a rough ride.
+**The terminal is intimidating.** No way around it. If "open your terminal" gives you anxiety, this is a rough ride.
 
-**It costs real money.** A heavy session — multiple filings, comp tables, backtests — runs $5-15. Cheaper than Bloomberg ($2,000/month). Not cheaper than ChatGPT ($20/month flat). Intensive use adds up.
+**It costs money.** A heavy session — multiple filings, comp tables, backtests — runs $5-15. Cheaper than Bloomberg ($2,000/month). More than ChatGPT ($20/month flat). Heavy use adds up.
 
-**Code can hallucinate.** Claude Code writes Python on the fly. Usually works. Sometimes it *looks* like it works but produces subtly wrong numbers. Sanity-check financial outputs — a misplaced decimal is a real problem.
+**Code can hallucinate.** Claude Code writes Python on the fly. Usually works. Sometimes the output *looks* right but has wrong numbers. Always sanity-check financial data — a misplaced decimal is a real problem when it's your money.
 
-**No memory between sessions.** Fresh start every time. It doesn't remember yesterday's comp table. Point it at saved files or re-establish context.
+**No memory between sessions.** Fresh start every time. It won't remember yesterday's comp table. Point it at saved files or re-establish context.
 
-**Context limits on huge docs.** A 50,000-word 10-K still requires finessing, even though Claude Code reads files in chunks.
+**Context limits on big docs.** A 50,000-word 10-K still requires finessing.
 
-Real friction. Not dealbreakers. But anyone claiming it "just works" for non-developers is lying.
+Real friction. Not dealbreakers. But anyone claiming this "just works" for non-developers is lying.
 
 ## Or Just Skip the Terminal
 
-I'm a developer. I live in the terminal. Claude Code feels natural to me.
+Look — I'm a developer. I live in the terminal. This feels natural to me.
 
-Most investors aren't developers. Shouldn't have to become one for AI-powered research.
+Most investors aren't developers. Shouldn't have to become one.
 
-That's why I built [Bloom](https://investwithbloom.com). Same core idea: AI that doesn't just talk about stocks but does the work. Pulls real financial data, runs real analysis, produces structured reports with bull/bear cases, insider activity, valuation context. The same output Claude Code gives me — through an interface that doesn't require knowing what a terminal is.
+That's why I built [Bloom](https://investwithbloom.com). Same idea: AI that doesn't just *talk* about stocks but does the work. Pulls real financial data, runs real analysis, produces structured reports — bull/bear cases, insider activity, valuation context. The same kind of output Claude Code gives me, through an interface where you don't need to know what a terminal is.
 
-If you read this and thought "incredible, but I'm never opening a terminal" — Bloom is the version built for you.
+If you read this and thought "great, but I'm never opening a terminal" — Bloom is the version built for you.
 
-## The Grunt Work Era Is Ending
+## The Grunt Work Era Is Over
 
-Every earnings season, millions of investors still research stocks the 2015 way. Copy-pasting from Yahoo Finance. Scrolling through 10-K filings manually. Building spreadsheets cell by cell.
+Every earnings season, millions of investors still research stocks the 2015 way. Copy-pasting from Yahoo Finance. Scrolling through 10-Ks manually. Building spreadsheets cell by cell.
 
-The tools to automate 80% of that work exist *right now*. Claude Code made me realize the gap between "AI that chats about investing" and "AI that does investing work" is massive. Most people are on the wrong side.
+The tools to automate 80% of that exist right now. Most people haven't noticed.
 
 The learning curve is real. The cost is real. But an investor who researches 20 stocks in the time it takes to manually do 2 is going to find better opportunities. Full stop.
-
-The grunt work era is ending. The question is whether you notice before everyone else does.
 
 ---
 

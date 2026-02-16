@@ -54,135 +54,129 @@
 
 ---
 
-In September 2011, a Wedbush analyst slapped a $65 price target on Netflix. The stock was around $115 — already down 60% from its peak.
+September 2011. A Wedbush analyst slaps a $65 price target on Netflix. Stock's at $115 — already down 60% from the peak.
 
-Reed Hastings had just fumbled the Qwikster disaster. Netflix lost 800,000 subscribers in a single quarter. The streaming library was thin. Content costs had doubled year-over-year. Margins were compressing.
+Reed Hastings had just fumbled Qwikster. Netflix lost 800,000 subscribers in a single quarter. The streaming library was thin. Content costs had doubled year-over-year.
 
-The stock kept falling. By November, Netflix hit $7.50 (split-adjusted).
+By November, Netflix hit $7.50 (split-adjusted).
 
-Every word of the bear thesis was correct. Except for the one thing that mattered: Netflix was building something the market hadn't priced in. The streaming model wasn't a side bet — it was the future of entertainment. The subscriber losses were noise from a pricing change. The content spending "destroying margins" was building a moat that would take a decade for competitors to attempt.
+Every word of the bear thesis was correct. Subscribers fleeing. Margins compressing. Cash burning. Except the bear thesis missed the one thing that mattered: Netflix was building something the market hadn't priced in. Streaming wasn't a side bet — it was the future of entertainment. The subscriber losses were noise from a pricing change. The content spending "destroying margins" was building a moat that would take competitors a decade to attempt.
 
-Buy on the downgrade date. $7.50 becomes $700 by 2021. A 93x return.
+$7.50 becomes $700 by 2021. 93x.
 
-The analyst was right about everything. And completely, catastrophically wrong.
+The analyst was right about everything. And completely wrong.
 
-## What a Maverick Company Actually Is
+## What a Maverick Actually Is
 
-"Contrarian" has been ruined by crypto bros and YOLO traders. Being contrarian means disagreeing. Being a maverick means doing something genuinely different — and having the data to back it up.
+"Contrarian" has been ruined by crypto bros and YOLO traders. Disagreeing with consensus doesn't make you smart. Doing something genuinely different — and having the data to back it up — does.
 
 Four traits. All four. Not three.
 
-**1. Contrarian strategy.** The company is doing something the industry thinks is actively wrong. Netflix burning billions on originals when everyone said license. Tesla building a vertically integrated manufacturer when everyone said go asset-light. Palantir refusing cookie-cutter SaaS to build custom data infrastructure for governments.
+**1. Contrarian strategy.** The company does something the industry thinks is wrong. Netflix burning billions on originals when everyone said license. Tesla building a vertically integrated manufacturer when everyone said go asset-light. Palantir refusing cookie-cutter SaaS to build custom data infrastructure for governments.
 
-**2. Misunderstood by consensus.** Analysts apply the wrong mental model. They see Netflix as a DVD company. Tesla as a car company. Palantir as a government contractor. Wrong framing → wrong valuation.
+**2. Wrong mental model from analysts.** They see Netflix as a DVD company. Tesla as a car company. Palantir as a government contractor. Wrong framing, wrong valuation.
 
-**3. Founder-led.** Reed Hastings. Elon Musk. Alex Karp. These people absorb years of negative press because they're building on a different timeline than Wall Street operates on. Hired-gun CEOs never have the stomach for this.
+**3. Founder-led.** Reed Hastings. Elon Musk. Alex Karp. They absorb years of negative press because they're building on a different timeline than Wall Street. Hired-gun CEOs never have the stomach for this.
 
-**4. Category-creating.** Streaming wasn't a better DVD service — it was a new category. Tesla isn't a better car company — it's an energy and autonomy platform. When a company invents its own category, there are no good comps. The models break. And when models break, you get mispricing.
+**4. Category-creating.** Streaming wasn't a better DVD service — it was a new thing. Tesla isn't a better car company — it's an energy and autonomy platform. When a company invents its own category, there are no good comps. Models break. And when models break, you get mispricing.
 
-Sometimes massive, sustained mispricing.
+Sometimes massive, sustained mispricing. That's where the money is.
 
-That's where the money is.
+## The Math: You Don't Need to Be Right Most of the Time
 
-## The Math of Being Right When Everyone's Wrong
+Five potential mavericks, $1,000 each. Three are duds — consensus was right, you lose 70% on each (-$2,100). One does okay — 30% gain (+$300). One is Netflix.
 
-The payoff structure is asymmetric as hell. Let me show you.
+That one does 10x. +$9,000.
 
-Five potential mavericks, equal weight, $1,000 each. Three are duds — consensus was right, you lose 70% on each (-$2,100). One does okay — modest 30% gain (+$300). One is Netflix.
+Net on $5,000: **+$7,200. 144% return.** Wrong 60% of the time and you still crushed the market.
 
-That one does 10x (+$9,000).
+Peter Lynch ran the best mutual fund in history. His line: "If you're good, you're right six times out of ten." The four he got wrong didn't matter because the six included stocks that went up 10x, 20x, 50x.
 
-Net on $5,000 invested: **+$7,200. A 144% return.** You got it wrong 60% of the time and still crushed the market.
+You don't need to be right often. You need to be right big.
 
-That's the maverick math. You don't need to be right most of the time. You need to be right *big*. One 10-bagger pays for a lot of mistakes.
+## Narrative Divergence: The Gap Worth 93x
 
-Peter Lynch said it: "In this business, if you're good, you're right six times out of ten." He ran the best-performing mutual fund in history. The four he got wrong didn't matter because the six included companies that went up 10x, 20x, 50x.
+Here's the pattern I keep coming back to: **narrative divergence** — the gap between what analysts say about a company and what the data actually shows.
 
-## Narrative Divergence: The Signal That Predicts 93x Returns
+**Consensus narrative** = what CNBC guests say, what shows up in analyst ratings, what dominates the Yahoo Finance comment section. For Netflix in 2011: "Streaming is unproven, subscribers are fleeing, content costs will eat them alive."
 
-The key to finding mavericks is what I call **narrative divergence** — the gap between what analysts say about a company and what the data actually shows.
+**Data narrative** = what the numbers say. For Netflix in 2011: streaming subscribers growing 40%+ even as DVD subs churned off, revenue per user climbing, average viewing hours up 3x year-over-year.
 
-**The consensus narrative** is what CNBC guests say, what shows up in analyst ratings, what dominates the Yahoo Finance comment section. For Netflix in 2011: "Streaming is unproven, subscribers are fleeing, content costs will eat them alive."
+When analysts are bearish and the data is quietly improving — that's the gap that creates 93x returns.
 
-**The data narrative** is what the numbers say. For Netflix in 2011: streaming subscribers growing 40%+ even as DVD subs churned off, revenue per user climbing, average viewing hours up 3x year-over-year.
+Spotting this manually is brutal. Read every analyst report. Parse every earnings call. Track every insider transaction. Cross-reference against financial trends. For every company on your watchlist. Continuously.
 
-When these two diverge — analysts bearish, data quietly improving — that's the gap that creates 93x returns.
+No human has the bandwidth. AI agents do.
 
-Detecting this manually is brutal. You'd need to read every analyst report, parse every earnings call, track every insider transaction, cross-reference it all against financial trends. For every company on your watchlist. Continuously.
+This is what I built [Bloom](https://investwithbloom.com) to do. When I ask it for a bull/bear case, it doesn't summarize financials — it constructs competing narratives. Last week I ran it on a mid-cap industrial. Bear case echoed consensus: "cyclical downturn, margin pressure." Bull case flagged something I'd missed entirely: insider buying had spiked 400% while analyst coverage was uniformly negative. That's a divergence worth digging into.
 
-No human has the bandwidth. But an AI agent does.
+## Tesla, 2017: What Divergence Looks Like
 
-This is what I built [Bloom](https://investwithbloom.com) to do. When I ask Bloom for a bull/bear case on a stock, it doesn't summarize financials — it constructs competing narratives. Last week I ran it on a mid-cap industrial. Bear case echoed the consensus: "cyclical downturn, margin pressure." Bull case flagged something I'd missed: insider buying had spiked 400% while analyst coverage was uniformly negative. That's a divergence worth investigating.
+Early 2017. @TSLA at $45 (split-adjusted). Jim Chanos — one of the most famous short sellers alive — called it "a walking insolvency." Most auto analysts had sell ratings. Cash burn was real.
 
-## Tesla, 2017: The Divergence in Action
+The data told a different story. 400,000 Model 3 reservations in weeks. Energy storage revenue doubling. Supercharger network growing exponentially. Customers handing Tesla $1,000 deposits for a car they wouldn't see for two years.
 
-Early 2017. Tesla at $45 (split-adjusted). Jim Chanos — one of the most famous short sellers alive — called it "a walking insolvency." Most auto analysts had sell ratings. Cash burn was real and accelerating.
+Analysts applied the legacy auto framework: capex cycles, production ramps, unit economics per vehicle. They were looking at a consumer brand with Apple-level demand and seeing a car manufacturer.
 
-Here's what the data said: 400,000 Model 3 reservations in weeks. Energy storage revenue doubling. Supercharger network growing exponentially. Customers handing Tesla $1,000 deposits for a car they wouldn't see for two years.
+$45 became $900 by late 2021. 20x from "walking insolvency."
 
-The consensus applied the legacy auto framework: capex cycles, production ramps, unit economics per vehicle. The data showed something else — a consumer brand with Apple-level demand that happened to make cars.
+## Palantir: The One That Broke the Models
 
-$45 became $900 by late 2021. A 20x from "walking insolvency."
-
-## Palantir: The One That Made Analysts Look Stupid
-
-Palantir went public September 2020. Direct listing, roughly $10. The consensus: "Government consulting shop pretending to be a software company. Margins won't scale. Can't sell commercially."
+@PLTR went public September 2020. Direct listing, roughly $10. Consensus: "Government consulting shop pretending to be a software company. Margins won't scale. Can't sell commercially."
 
 For two years, it looked right. Stock bounced between $7 and $25. Bears hammered stock-based comp. Median analyst target: $10-12.
 
-Then the commercial business inflected. Hard.
+Then the commercial business inflected.
 
 Q1 2024: commercial revenue up 55%. Q2: up 71%. AIP — their AI platform — started landing massive enterprise contracts. Customer count doubled. Net dollar retention blew past 120%.
 
-$7 to $120 in under two years. Analysts with $10 targets had to revise to $50, then $80, then quietly stop covering it.
+$7 to $120 in under two years. Analysts with $10 targets had to revise to $50, then $80, then quietly stop covering.
 
-The divergence was detectable quarters before the stock moved. Commercial customer growth was accelerating while analysts were still writing about government contract risk. If you tracked the data — not the commentary — you saw it coming.
+The divergence was detectable quarters before the stock moved. Commercial customer growth was accelerating while analysts were still writing about government contract risk. Track the data, not the commentary, and you saw it coming.
 
 ## When Your Maverick Is Just a Bad Company
 
-I'd be lying if I said this always works. Sometimes the consensus is right and you're the idiot. I need to be straight about the failure modes.
+I'd be lying if I said this always works. Consensus is right more often than it's wrong. I need to be honest about the failure modes.
 
-**WeWork** had all four maverick traits. Contrarian strategy, founder-led, "category-creating." It was all bullshit. The unit economics never worked. The "category" was expensive subleasing with kombucha on tap.
+**WeWork** had all four traits. Contrarian strategy, founder-led, "category-creating." Bullshit. The unit economics never worked. The "category" was expensive subleasing with kombucha on tap.
 
-**Peloton** looked like a maverick in 2020. Category-creating connected hardware, ridiculous demand. Then the pandemic ended: $170 to $5. They'd pulled forward five years of demand into six months.
+**Peloton** looked like a maverick in 2020. Category-creating connected hardware, insane demand. Then the pandemic ended. $170 to $5. Five years of demand pulled into six months.
 
-**Valeant Pharmaceuticals** — the "maverick" of pharma. Acquiring drugs and jacking prices instead of doing R&D. Bill Ackman put $4 billion in. Stock went from $260 to $9.
+**Valeant** — the "maverick" of pharma. Acquiring drugs and jacking prices instead of doing R&D. Bill Ackman put $4 billion behind it. $260 to $9.
 
-The pattern: in every failed maverick, the "contrarian strategy" was financial engineering or unsustainable demand. The fundamentals, stripped of narrative, were *confirming* the bear case — not diverging from it.
+The pattern in every failed maverick: the "contrarian strategy" was financial engineering or unsustainable demand. The fundamentals, stripped of narrative, were *confirming* the bear case — not diverging from it.
 
-This is exactly why you need AI doing the analysis instead of your gut. Your gut says "I'm smarter than the analysts." AI says "sentiment is negative, and the fundamentals are *also* negative. There's no divergence here. You're just wrong."
+This is exactly why you need data instead of gut. Your gut says "I'm smarter than the analysts." The data says "sentiment is negative, and the fundamentals are *also* negative. There's no divergence. You're just wrong."
 
-[Bloom's](https://investwithbloom.com) whole approach: it's not looking for contrarian plays for contrarian's sake. It's looking for cases where data contradicts narrative. When both agree the company is struggling, that's not a maverick — that's a bad stock with a good story.
+That's [Bloom's](https://investwithbloom.com) whole approach. Not looking for contrarian plays for contrarian's sake — looking for cases where data contradicts narrative. When both agree the company is struggling, that's not a maverick. That's a bad stock with a good story.
 
 ## How to Hunt Mavericks
 
-The practical framework I use:
+The framework I actually use:
 
-**Screen for negative sentiment + positive fundamentals.** Companies where analyst ratings skew bearish but revenue is accelerating, margins expanding, or insiders are buying hand over fist. Narrative divergence in its simplest form.
+**Screen for negative sentiment + positive fundamentals.** Companies where analyst ratings skew bearish but revenue is accelerating, margins expanding, or insiders buying hand over fist. Narrative divergence, distilled.
 
-**Check the founder.** Still leading? Significant equity stake — not just options? Making bold moves that sacrifice short-term metrics? Bloom surfaces insider holdings and parses earnings calls for conviction vs. defensiveness.
+**Check the founder.** Still leading? Significant equity stake — not just options? Making bold moves that sacrifice short-term metrics?
 
 **Look for category confusion.** When analysts can't agree what sector a company belongs to, or when the comps obviously don't fit — that's a sign the market has no framework for this company yet. No framework = mispricing.
 
 **Steel-man the bear case.** If the best bear argument is "overvalued," that's weak. If it's "unit economics don't work," that's real. The quality of the bear case tells you whether the divergence is signal or noise.
 
-**Watch the trend over quarters.** Is the gap growing? Bullish. Is consensus catching up? Less upside remaining. Mavericks don't reveal themselves in a single snapshot.
+**Watch the trend over quarters.** Gap growing? Bullish. Consensus catching up? Less upside left. Mavericks don't reveal themselves in a single snapshot.
 
-## Conviction With Data > Conviction Without Data
+## Conviction Without Data Is Delusion
 
 Every investor thinks they're a contrarian. Go to any investing subreddit — everyone's got a "high-conviction" thesis on some stock the market "doesn't understand."
 
 Most of them are just underwater and rationalizing.
 
-The difference between delusion and alpha is data. Not "I feel like analysts are wrong" but "analyst consensus is sell, revenue grew 55% last quarter, and insiders bought $12M in stock."
+The difference between delusion and being right: data. Not "I feel like analysts are wrong" but "analyst consensus is sell, revenue grew 55% last quarter, and insiders bought $12M in stock."
 
-That's what AI agents make possible. Not better hunches. Better data on whether your hunches are correct.
+That's what AI agents make possible. Not better hunches — better data on whether your hunches are correct.
 
 The best investments of the next decade will be mavericks. Companies doing something the market doesn't understand yet. Some are trading right now with negative analyst consensus and quietly accelerating metrics.
 
-The question is whether you'll find them before the consensus catches up. By the time CNBC is bullish, the 10x is gone.
-
-You're looking for the gap. AI helps you see it.
+By the time CNBC is bullish, the 10x is gone. You're looking for the gap. AI helps you see it.
 
 ---
 
