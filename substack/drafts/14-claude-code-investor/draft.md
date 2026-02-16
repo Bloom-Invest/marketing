@@ -53,7 +53,7 @@
 
 ---
 
-# I Asked My Terminal to Download Every NVDA Insider Trade From the Last Year. It Built Me a Spreadsheet in 90 Seconds.
+# How to Research a Stock with AI Agents
 
 *Claude Code isn't a chatbot. It's a coding agent that lives in your terminal. For investment research, it's the most underrated tool I've used.*
 
