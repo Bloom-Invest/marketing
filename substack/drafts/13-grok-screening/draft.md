@@ -1,3 +1,29 @@
+<!-- OUTLINE (remove before publishing) -->
+
+<details>
+<summary>📋 Article Outline (click to expand)</summary>
+
+## Variant B: "My Dumbest Smart Idea" (Story-Driven) ✅ CHOSEN
+
+1. **Hook**: Personal anecdote — you asked Grok a dumb question about what retail traders were excited about, got a surprisingly useful answer, actually made money on one of the ideas
+2. **Why Twitter is a leading indicator**: The Bloomberg terminal doesn't know what WallStreetBets knows (yet)
+3. **What makes Grok different from just reading Twitter**: It synthesizes, it summarizes sentiment across thousands of posts, it catches momentum you'd miss scrolling
+4. **The prompts I actually use**: Specific, tested prompts with commentary on why they work
+5. **The 90% garbage problem**: Most stock Twitter is pump-and-dump noise — here's the filter
+6. **The pipeline: Grok finds it, Bloom validates it**: Social signal → fundamental check workflow
+7. **Receipts**: Real examples of stocks that showed up on social before they moved (with dates/prices)
+8. **Where Grok will absolutely screw you**: Hallucinated financials, false confidence, the dangers
+9. **Close**: This isn't a strategy. It's one tool in the toolbox.
+
+*Pros*: Best narrative arc, matches Eric's voice perfectly, honest and opinionated
+*Cons*: Longer, needs good examples to land
+
+---
+
+</details>
+
+---
+
 # I Asked Grok "What Stocks Are Retail Traders Hyped About?" and Actually Made Money on One
 
 *Twitter knows things before Bloomberg does. The trick is filtering signal from 10,000 rocket emojis.*

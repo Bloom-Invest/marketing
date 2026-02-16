@@ -1,3 +1,41 @@
+<!-- OUTLINE (remove before publishing) -->
+
+<details>
+<summary>📋 Article Outline (click to expand)</summary>
+
+# Article #5: Outline Variants
+## "Using AI Agents to Automate Your Investment Desk Research"
+
+---
+
+## ✅ OPTION A — "The Junior Analyst Is Dead" (CHOSEN)
+
+**Angle:** Walk through the actual Wall Street desk research workflow step-by-step, show how AI agents replicate each stage, use Bloom as the throughline. Opens with the personal anecdote of Eric doing desk research manually at his old job vs. what he does now.
+
+1. **Hook** — Personal anecdote: spending a weekend building a stock pitch deck / research memo manually, realizing AI could do 80% of the work
+2. **What "Desk Research" Actually Means** — Wall Street definition vs. retail investor reality. The junior analyst workflow: screens → filings → models → memo. Why retail investors unknowingly do a crappy version of the same thing.
+3. **The $350,000 Junior Analyst Workflow** — Break down what a first-year analyst actually does (specific steps, hours, output). Most of it is mechanical data gathering and formatting, not insight.
+4. **How AI Agents Replicate Each Step** — Map the analyst workflow onto AI agent capabilities:
+   - Screening → Natural language queries vs. checkbox screeners
+   - Data gathering → API calls to financial data sources in seconds
+   - Financial modeling → Scenario analysis and valuation sanity checks
+   - Qualitative research → Summarizing filings, earnings calls, news
+   - Memo writing → Structured bull/bear case generation
+5. **A Real Desk Research Session in Bloom** — Full walkthrough of researching a stock from scratch using Bloom, showing the actual workflow and output
+6. **The Quality Gap: What AI Does Better** — Speed, breadth, consistency, no ego, doesn't anchor to prior beliefs, covers more ground
+7. **The Quality Gap: What AI Still Misses** — Management quality, competitive intuition, regulatory "feel," knowing when numbers lie, relationship-driven intel
+8. **Why This Matters If You Don't Have a Research Team** — The democratization angle: individual investors now have access to analyst-quality workflow without the team. Not dumbed-down — the actual workflow, automated.
+9. **The Pillar Post Tease** — Brief forward references to deeper dives coming (financial analysis, valuation, screening, insider data — future articles 6-12)
+10. **Close** — You're the portfolio manager now. The grunt work is automated. The thinking is still yours.
+
+**Why this outline:** Most comprehensive. Follows the natural "what is it → how did it work → how does AI do it → proof → gaps → implications" arc. The Wall Street comparison gives it authority and specificity. The full walkthrough gives it utility.
+
+---
+
+</details>
+
+---
+
 # Using AI Agents to Automate Your Investment Desk Research
 
 *Wall Street pays junior analysts $150K to do work that's 80% mechanical. AI agents do that 80% in minutes. Here's exactly how — and where the humans still win.*

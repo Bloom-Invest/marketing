@@ -1,3 +1,99 @@
+<!-- OUTLINE (remove before publishing) -->
+
+<details>
+<summary>📋 Article Outline (click to expand)</summary>
+
+### Variant C Wireframe (Results-First)
+```
+┌─────────────────────────────────────────────────────┐
+│  [IMAGE: Hero image — Nano Banana Pro]              │
+│                                                     │
+│  ══════════════════════════════════════════════════  │
+│  4,000 → 2,200 Tokens: What Happened When I Let     │
+│  AI Optimize Its Own Prompt                         │
+│  ══════════════════════════════════════════════════  │
+│                                                     │
+│  ┌───────────────────────────────────────────────┐  │
+│  │         THE SCOREBOARD                        │  │
+│  │  Prompt:  4,000 → 2,000 → 2,200 tokens       │  │
+│  │  Tests:   264/363 passed → fixed → green      │  │
+│  │  Time:    ~25 min (round 1) + sub-agent       │  │
+│  │  Effort:  3 text messages                     │  │
+│  └───────────────────────────────────────────────┘  │
+│                                                     │
+│  ── § The Scorecard ──────────────────────────────  │
+│  ┌───────────────────────────────────────────────┐  │
+│  │ [SCREENSHOT: DeepEval terminal output]        │  │
+│  └───────────────────────────────────────────────┘  │
+│                                                     │
+│  Failure categories table (inline)                  │
+│  ┌───────────────────────────────────────────────┐  │
+│  │ [DIAGRAM: Failure categories breakdown]       │  │
+│  └───────────────────────────────────────────────┘  │
+│                                                     │
+│  ── § How We Got Here ────────────────────────────  │
+│  Bloom context. The bloated prompt.                 │
+│  ┌───────────────────────────────────────────────┐  │
+│  │ [DIAGRAM: Before/after prompt — Excalidraw]   │  │
+│  └───────────────────────────────────────────────┘  │
+│                                                     │
+│  ── § The Three Messages ─────────────────────────  │
+│  ┌───────────────────────────────────────────────┐  │
+│  │ [SCREENSHOT: Signal conversation - 3 msgs]    │  │
+│  └───────────────────────────────────────────────┘  │
+│  Round 1 narrative (compressed). PR #1244.          │
+│                                                     │
+│  ── § Scaling: 12 → 363 Tests ───────────────────  │
+│  ┌───────────────────────────────────────────────┐  │
+│  │ [DIAGRAM: The eval loop]                      │  │
+│  │  edit → test → fix → deploy                   │  │
+│  └───────────────────────────────────────────────┘  │
+│  Full suite results. The 99 failures.               │
+│                                                     │
+│  ── § The Sub-Agent Fix (PR #1275) ───────────────  │
+│  +16/-4 lines. The prompt arc visualization.        │
+│                                                     │
+│  ── § What I Learned ─────────────────────────────  │
+│  4 tight, opinionated bullets.                      │
+│  Kicker: "The best prompt isn't the shortest..."    │
+│                                                     │
+│  ── § CTA ────────────────────────────────────────  │
+└─────────────────────────────────────────────────────┘
+```
+
+---
+
+## COMPARISON MATRIX
+
+| Dimension        | A: Chronological        | B: Framework-First      | C: Results-First        |
+|-----------------|-------------------------|-------------------------|-------------------------|
+| Hook             | Narrative (the 3 texts) | Thesis (vibes vs eng)   | Numbers (the scoreboard)|
+| Best for         | Existing readers         | New readers / SEO       | Social sharing / skimmers|
+| Length           | ~2,500 words            | ~2,200 words            | ~2,000 words            |
+| Emotional arc    | ★★★★★                  | ★★★                    | ★★★★                   |
+| Actionability    | ★★★                    | ★★★★★                  | ★★★★                   |
+| Shareability     | ★★★                    | ★★★★                   | ★★★★★                  |
+| SEO strength     | ★★★                    | ★★★★★                  | ★★★★                   |
+| Unique angle     | "Story continues"       | "Steal this framework"  | "Look at these numbers" |
+
+## MY RECOMMENDATION
+
+**Variant A with Variant C's cold open.** Start with the scoreboard numbers (instant hook), then tell the chronological story. Best of both worlds — the numbers grab attention, the narrative keeps them reading. Variant B's framework can live as a sidebar or "How to steal this" section at the end.
+
+---
+
+## NEXT STEPS
+- [ ] Eric picks a variant (or hybrid)
+- [ ] Generate hero image with Nano Banana Pro
+- [ ] Create Excalidraw diagrams (before/after prompt, eval loop, failure categories)
+- [ ] Take screenshots (Signal conversation, DeepEval terminal output)
+- [ ] Write full draft
+- [ ] SEO review pass
+
+</details>
+
+---
+
 # I Texted My AI to Fix Its Own Prompt
 
 *Three messages, three iterations, 48 fewer lines, higher scores.*

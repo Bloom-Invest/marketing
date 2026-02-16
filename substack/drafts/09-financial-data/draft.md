@@ -1,3 +1,67 @@
+<!-- OUTLINE (remove before publishing) -->
+
+<details>
+<summary>📋 Article Outline (click to expand)</summary>
+
+## Variant A: The Data Safari ✅ CHOSEN
+
+### Title
+**I Pulled Data From 6 Different Sources to Analyze One Stock. Then I Automated All of It.**
+
+### Subtitle
+*Yahoo Finance gives you price. SEC EDGAR gives you filings. Alpha Vantage gives you fundamentals. None of them give you the full picture. Here's how an AI agent stitches it all together.*
+
+### Tone & Angle
+Practical, builder-meets-investor. Opens with the personal pain of data fragmentation — the 17 browser tabs problem. Maps the entire data landscape (free vs paid, strengths vs weaknesses), then shows how Bloom's agent solves the aggregation problem. Specific tool names, specific data quality gotchas, specific examples. The reader walks away understanding both the landscape and the solution.
+
+### Outline
+
+**1. The 17-Tab Problem** (~250 words)
+- Hook: Saturday morning, researching a stock, 17 browser tabs open
+- Each tab = a different data source, each with different formats, different freshness, different coverage
+- Yahoo Finance for price, SEC EDGAR for insider filings, Alpha Vantage for income statements, Google for news
+- The realization: 60% of "stock research" is just *finding and assembling data*
+- The actual analysis — the thinking part — is maybe 20 minutes. The data collection is 2 hours.
+
+**2. The Financial Data Landscape (Honest Review)** (~500 words)
+- Yahoo Finance: good for price/basic metrics, unreliable API, gets scraped to death
+- Alpha Vantage: free tier gets you fundamentals, 5 calls/minute limit, international coverage spotty
+- SEC EDGAR: gold standard for US filings, but raw XBRL is hell to parse
+- Polygon.io: real-time and historical price data, solid API, $29/mo for useful tier
+- EOD Historical Data: Bloom's choice for international + ADRs, surprisingly good coverage
+- Bloomberg Terminal: the "if you have to ask, you can't afford it" option ($24k/year)
+- Free vs paid tradeoffs — what you actually need as a retail investor
+
+**3. What Each Source Is Actually Good (and Bad) At** (~300 words)
+- Table/breakdown: price data vs fundamentals vs insider trades vs institutional holdings vs international
+- The dirty secret: no single source has everything
+- Specific gotchas: adjusted vs unadjusted prices, fiscal year vs calendar year, currency conversion
+
+**4. How Bloom's Agent Pulls It All Together** (~400 words)
+- The specific tools: get_stock_data, get_financials, get_technicals, get_insider_trades, get_institutional_holdings, get_news, web_search
+- How the agent decides which tools to call (and in what order)
+- Data normalization: different APIs return different formats, agent standardizes
+- Real example: "Analyze SHOP" → agent calls 4-5 tools, assembles a coherent picture from fragmented sources
+
+**5. The Data Quality Minefield** (~300 words)
+- Stale data: earnings reported last night, API still shows last quarter
+- Adjusted vs unadjusted prices: stock splits will ruin your analysis if you're not careful
+- International stocks: ADRs, currency effects, different reporting standards (IFRS vs GAAP)
+- Missing data: micro-caps and recent IPOs have gaps
+- How the agent handles each of these (timestamps, warnings, graceful degradation)
+
+**6. The Punchline: AI Agents as Data Infrastructure** (~250 words)
+- The real value isn't any single data source — it's the orchestration layer
+- An AI agent turns "I need data from 5 places" into "I need an answer"
+- What used to be a Saturday morning of tab-juggling is now a 30-second tool chain
+- CTA: Bloom (investwithbloom.com) handles the data plumbing so you can focus on thinking
+
+---
+
+</details>
+
+---
+
 # I Pulled Data From 6 Sources to Analyze One Stock. Then I Automated All of It.
 
 *Yahoo Finance gives you price. SEC EDGAR gives you filings. Alpha Vantage gives you fundamentals. None of them give you the full picture.*

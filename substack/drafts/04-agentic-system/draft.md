@@ -1,3 +1,74 @@
+<!-- OUTLINE (remove before publishing) -->
+
+<details>
+<summary>📋 Article Outline (click to expand)</summary>
+
+## VARIANT A: Architecture Tour ✅ CHOSEN
+*"Walk me through the machine, piece by piece"*
+
+### Title
+**My AI Investing Agent Calls 17 Tools, Chains Multi-Step Research, and Grades Its Own Work. Here's How It Works.**
+
+### Subtitle
+Inside the architecture of Bloom's agentic system — the prompt philosophy, tool design, research chaining, and the 224-test benchmark suite that keeps it honest.
+
+### Outline
+
+**1. Cold open — the "it just works" moment that masks complexity**
+- Anecdote: user asks "analyze CRWD" → agent makes 4 parallel tool calls, synthesizes data from 3 APIs, produces structured bull/bear case in 12 seconds
+- "That looks simple. It's the hardest engineering I've done."
+
+**2. The prompt philosophy: less is more**
+- Journey from 4,000-token kitchen-sink prompt to ~2,000-token focused prompt
+- The principle: RLHF models already know how to be helpful. Your prompt should only cover what's unique to YOUR app.
+- Concrete example: removed 10 question-type handlers, model handled every case without them
+- The value investing framework: 1,000+ tokens of investment philosophy baked in, NOT trimmed — because that IS the unique knowledge
+
+**3. The tool belt: 17 tools, each with a job**
+- Design philosophy: each tool is a well-scoped API, not a God function
+- Walk through the key tools with what they return and why they're separate:
+  - get_symbols_metadata (the starting point — financials, ratings, peers)
+  - get_price_charts (historical prices, auto-sampled for long timeframes)
+  - analyze_technicals (RSI, moving averages, options activity, insider transactions)
+  - analyze_earnings (transcripts, estimates vs actuals, surprises)
+  - filter_stocks (quantitative screening with natural language operators)
+  - generate_catalysts (forward-looking AI analysis)
+  - search_transcript (keyword search in earnings calls)
+- Why batch parameters matter: analyze_technicals takes 1-5 symbols, processes in parallel
+
+**4. How it chains multi-step research**
+- The "todo" system: for complex queries needing 3+ research steps, agent writes itself a research plan
+- Real example: "find me undervalued turnaround plays" chains filter_stocks → get_financial_charts → search_transcript → analyze_technicals → generate_catalysts
+- Parallel vs sequential: independent tools fire simultaneously, dependent tools wait
+- The multi-agent handoff: router → search_agent → research_agent → evaluation_agent → portfolio_agent
+
+**5. The benchmark: 224 tests, 8 metric types**
+- Why we built it: "it seems to work fine" is not a methodology
+- DeepEval framework: pytest + LLM-as-a-judge
+- The metric stack: TaskCompletion, AnswerRelevancy, Hallucination, Bias, Toxicity, ContextualRelevancy/Precision/Recall
+- Tiered testing: smoke (<1 min) → regression (3-5 min) → comprehensive (15+ min)
+- The failure taxonomy from 363 → 264 passed story
+- How the eval catches things humans don't (0.65 vs 0.7 threshold on financial analysis)
+
+**6. Lessons from building production AI agents for finance**
+- Trust the model more than you think
+- Eval-driven prompt development > vibes-driven prompt development
+- Finance-specific challenges: fabricated metrics are the worst failure mode
+- Multi-agent orchestration is powerful but adds latency and failure modes
+
+**7. CTA**
+- Try Bloom, follow the work on GitHub
+
+### Estimated length: ~2,200 words
+### Pros: Technical depth, unique angle (most AI articles are surface-level), demonstrates real expertise
+### Cons: May lose less technical readers in sections 3-4
+
+---
+
+</details>
+
+---
+
 # My AI Investing Agent Calls 17 Tools and Grades Its Own Work. Here's How It All Fits Together.
 
 *Inside Bloom's agentic architecture — the prompt philosophy, tool design, research chaining, and the 224-test benchmark that keeps it honest.*
