@@ -1,6 +1,9 @@
 # Bloom Brand Voice
 
-*Distilled from Eric's actual writing across mycrystalball.substack.com, his guest post on Aman Khan's AI Product Playbook, and @exiao3 on X/Twitter.*
+*Distilled from Eric's actual writing across all sources:*
+- *mycrystalball.substack.com — 7 posts (2023-2024): Bloom case study, Meta analysis, gambling theory, AI writing guide, hiring series, free tech essay*
+- *"Cursor for Product Managers" guest post on Aman Khan's AI Product Playbook (Jan 2026)*
+- *@exiao3 on X/Twitter — 30+ tweets (Sep 2025 – Jan 2026)*
 
 ---
 
@@ -18,7 +21,7 @@ These patterns show up consistently across all three sources:
 - "I set a personal record by running 12 Claude code instances in parallel" (tweet)
 - "I recently showcased 20 different tactics I use to build a 1-person startup" (tweet)
 
-Eric never starts with abstractions. He starts with what happened, then zooms out.
+Eric almost never starts with abstractions. He starts with what happened, then zooms out. Even the more analytical posts (gambling theory, Meta analysis) open with a concrete hook — a stock price, a Cramer clip, a math problem.
 
 ### 2. Shows the work, not the conclusion
 - Walks through an entire HIMS research session step by step (blog)
@@ -59,8 +62,40 @@ Eric is openly imperfect. This is rare in tech/investing content and builds trus
 - "Prompt, Evaluate, Iterate" (proposed new shipping model)
 - "A picture collapses ambiguity" (why ASCII wireframes work)
 - "The todo list lets Claude plan first before doing work" (system design insight)
+- "SABA — Shopify, Apple, Boomers, AI" (Meta investment thesis as acronym)
+- Kelly Criterion applied to position sizing (gambling theory → investing)
+- "Geometric average" (why 10% up then 10% down ≠ breakeven)
 
-He names the pattern, then shows it in action. Frameworks stick; opinions fade.
+He names the pattern, then shows it in action. Frameworks stick; opinions fade. His Substack posts especially love multi-level structures ("Level 0 through Level VI") and scoring rubrics.
+
+### 7. Honest self-critique and intellectual humility
+- "I'm willing to say that writing any code at the 0→1 stage... for most software applications is a waste of time" (about his own product)
+- "Nobody cares unless we make them care" (about Bloom's early failure to market)
+- "Product does not matter. It hurts my soul to say that, but it's true." (hard-won lesson)
+- "It is better to be unsure than to pretend you have conviction" (on investing)
+- "As an armchair CEO with no qualifications to make these claims" (self-deprecating before bold take)
+
+Eric doesn't posture expertise. He shares what he learned by getting it wrong, then explains the lesson. This is his most distinctive trait.
+
+### 8. Quotes and references from credible thinkers
+- Warren Buffett, Charlie Munger, Morgan Housel, Annie Duke, Paul Graham, Nassim Taleb
+- Links to specific blog posts, research papers, Twitter threads as evidence
+- "To quote Morgan Housel..." → supports claim with external authority, not just personal opinion
+
+He uses other people's frameworks to scaffold his own arguments. Citations are earned, not decorative.
+
+### Voice Evolution (2023 → 2026)
+
+Eric's voice has sharpened over time:
+
+| Era | Style | Example |
+|-----|-------|---------|
+| **2023 Substack** | More academic, longer paragraphs, quotes from authorities, structured multi-level frameworks | "Investing itself is a simple concept that has infinite depth." |
+| **2024 Substack** | Transitional — still structured but more direct, self-critical | "Product does not matter. It hurts my soul to say that, but it's true." |
+| **2025-26 Twitter** | Punchy, visual-first, build-in-public energy, specific numbers, casual | "12 Claude code instances in parallel 😅" |
+| **2026 Substack (guest post)** | Teaching by doing, ASCII wireframes, demo-driven, practical | "We call it agile, but it's really waterfall with standups." |
+
+**For new content: write in the 2025-26 voice.** Punchy, concrete, personal, demo-driven. Use the 2023 depth (frameworks, math, citations) when the topic demands it, but deliver it in the current voice.
 
 ---
 
