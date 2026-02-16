@@ -70,29 +70,29 @@ Practical, builder-meets-investor. Opens with the personal pain of data fragment
 
 Last Saturday, 9:30 AM. Coffee's still hot. I sit down to research @SHOP. One stock.
 
-Forty-five minutes later I had 17 browser tabs open. Yahoo Finance for price and basic ratios. Alpha Vantage for the income statement. SEC EDGAR for the latest 10-Q because I wanted to see what management actually said about margins. OpenInsider for insider transactions. WhaleWisdom for institutional holdings. Google News for analyst takes. Finviz for the chart.
+Forty-five minutes later: 17 browser tabs. Yahoo Finance for price and basic ratios. Alpha Vantage for the income statement. SEC EDGAR for the latest 10-Q because I wanted to see what management actually said about margins. OpenInsider for insider transactions. WhaleWisdom for institutional holdings. Google News for analyst takes. Finviz for the chart.
 
-Seventeen tabs. Seven sources. And I still couldn't tell you whether the stock was worth buying.
+Seventeen tabs. Seven sources. Still couldn't tell you whether the stock was worth buying.
 
-40 minutes collecting data. 5 minutes thinking about the investment. An 8:1 ratio of plumbing to actual analysis.
+40 minutes collecting data. 5 minutes thinking about the investment.
 
-That ratio is why I built [Bloom](https://investwithbloom.com). Not because the world needed another AI chatbot — it didn't. Because I got tired of being a glorified copy-paste machine.
+That 8:1 ratio is why I built [Bloom](https://investwithbloom.com). Not because the world needed another AI chatbot — it didn't. Because I got tired of being a glorified copy-paste machine.
 
 ## Every Data Source Is Broken in Its Own Way
 
-I've used all of these. No affiliate links, no sponsorships.
+I've used all of these. No affiliate links, no sponsorships. Just honest takes from actually building on top of them.
 
-**Yahoo Finance** — Free, decent coverage. Price, market cap, P/E. The problem: Yahoo killed its official API years ago. Everyone scrapes it now. The unofficial APIs break constantly. I've had Yahoo return earnings data *two quarters old* with zero warning. Fine for a quick price check. Terrible as anything you'd build on.
+**Yahoo Finance** — Free, decent coverage. Price, market cap, P/E. But Yahoo killed its official API years ago. Everyone scrapes it now. The unofficial APIs break constantly. I've had Yahoo return earnings data *two quarters old* with zero warning. Fine for a quick price check. Don't build anything on it.
 
-**Alpha Vantage** — Free tier gives you 25 API calls per day. Premium starts at $50/month. Solid for US fundamentals. I once pulled data for a Japanese stock and got completely empty fields back — with a 200 OK status code. The API said "here's your data!" and handed me nothing.
+**Alpha Vantage** — Free tier gives you 25 API calls per day. Premium starts at $50/month. Solid for US fundamentals. I once pulled data for a Japanese stock and got completely empty fields back — with a 200 OK status code. The API said "here's your data!" and handed me nothing. I spent an hour debugging before I realized the data simply didn't exist.
 
-**SEC EDGAR** — Gold standard for US filings. Every 10-K, 10-Q, 8-K, Form 4, 13F — all free. The catch: XBRL format. Basically XML's annoying cousin. Entire companies (Calcbench, Last10K) exist just to make EDGAR readable. That tells you everything about the raw format.
+**SEC EDGAR** — The real deal for US filings. Every 10-K, 10-Q, 8-K, Form 4, 13F — all free. The catch: XBRL format. Basically XML's annoying cousin. Entire companies (Calcbench, Last10K) exist *just to make EDGAR readable*. That tells you everything about the raw format.
 
 **Polygon.io** — Clean API, good for real-time and historical price data. Free tier is delayed; $29/month gets real-time. Not where you go for fundamentals.
 
-**EOD Historical Data** — What Bloom uses for international stocks. $30/month. 70+ exchanges. They handle IFRS-vs-GAAP normalization, which is the thing that makes international data such a nightmare to work with.
+**EOD Historical Data** — What Bloom uses for international stocks. $30/month. 70+ exchanges. They handle IFRS-vs-GAAP normalization, which is the thing that makes international data such a nightmare.
 
-**Bloomberg Terminal** — $24,000/year. Per seat. The best financial data on Earth. Nobody reading this should pay for it. As a retail investor, you can get 95% of Bloomberg's data for under $100/month. That last 5% is not worth $23,900.
+**Bloomberg Terminal** — $24,000/year. Per seat. The best financial data on Earth, and nobody reading this should pay for it. As a retail investor, you can get 95% of what Bloomberg offers for under $100/month. That last 5% is not worth $23,900.
 
 ## No Single Source Covers the Basics
 
@@ -102,13 +102,12 @@ Insider transactions? SEC EDGAR Form 4.
 Institutional holdings? 13F filings (also EDGAR, totally different format).
 International stocks? EOD Historical Data.
 Real-time tick data? Polygon.
+
 All of the above, in one place? Bloomberg. For $24K.
 
-The data exists — all of it. It's scattered across six APIs with six authentication methods, six response formats, six rate limits, and six different definitions of "quarterly revenue."
+The data exists. All of it. It's scattered across six APIs with six authentication methods, six response formats, six rate limits, and six different definitions of "quarterly revenue."
 
-A hedge fund solves this by hiring a data engineering team to build ETL pipelines.
-
-A retail investor solves this by opening 17 browser tabs and hoping they don't transpose a number.
+A hedge fund hires a data engineering team to build ETL pipelines. A retail investor opens 17 browser tabs and hopes they don't transpose a number.
 
 ## What Bloom Actually Does With 6 Sources
 
@@ -126,31 +125,31 @@ When you ask Bloom "analyze @SHOP," six tools fire in about 15 seconds:
 
 6. **`get_news` + `web_search`** — headlines, analyst reports, catalysts, risks.
 
-Six calls, six blobs of data in six formats. The agent normalizes all of it and returns a structured analysis: rating, bull case, bear case, key drivers, specific numbers.
+Six calls, six blobs of data in six formats. The agent normalizes everything and returns a structured analysis: rating, bull case, bear case, key drivers, specific numbers.
 
-That 45-minute tab-juggling session? 15 seconds.
+That 45-minute tab-juggling session? Fifteen seconds.
 
 ## The Stuff That Breaks
 
-This is where most "AI financial tools" quietly fall apart. I know because I've shipped all these bugs.
+Here's where most "AI financial tools" quietly fall apart. I know because I've shipped every one of these bugs.
 
-**Stale data.** Company reports earnings at 4:15 PM. APIs might not update until the next morning. Sometimes not for days. You ask for an analysis at 5 PM on earnings day and get last quarter's numbers with full confidence. Bloom checks data timestamps and flags when financials look stale relative to the last known earnings date. It's not perfect. But it's better than silently serving you quarter-old data.
+**Stale data.** Company reports earnings at 4:15 PM. APIs might not update until the next morning. Sometimes not for days. You ask for an analysis at 5 PM on earnings day and get last quarter's numbers presented with full confidence. Bloom checks data timestamps and flags when financials look stale relative to the last known earnings date. Not perfect. Better than silently serving you quarter-old data.
 
-**Stock splits.** A stock does a 4:1 split. If your price data is split-adjusted but historical earnings aren't, your P/E is off by 4x. That $100 stock with $5 EPS (P/E of 20) suddenly shows a P/E of 80 because pre-split prices read $400. I shipped this exact bug. Subtle, easy to miss, makes your analysis worthless.
+**Stock splits.** A stock does a 4:1 split. If your price data is split-adjusted but historical earnings aren't, your P/E is off by 4x. That $100 stock with $5 EPS (P/E of 20) suddenly shows a P/E of 80 because pre-split prices read $400. I shipped this exact bug. Subtle, easy to miss, makes your entire analysis worthless.
 
-**International stocks.** Different reporting standards (IFRS vs. GAAP). Fiscal years ending in March. Currency conversion. ADR ratios. When someone asks Bloom to analyze Toyota (@TM), the financials are in yen, the ADR represents a specific share count, and margins aren't comparable to a US automaker. Most financial AI tools just echo whatever the API returns.
+**International stocks.** Different reporting standards (IFRS vs. GAAP). Fiscal years ending in March. Currency conversion. ADR ratios. When someone asks Bloom to analyze Toyota (@TM), the financials are in yen, the ADR represents a specific share count, and margins aren't directly comparable to a US automaker. Most financial AI tools just echo whatever the API returns. We try to flag the discrepancies. We don't always catch them.
 
-**Small caps and recent IPOs.** Ask for 5 years of history on a company that IPO'd 18 months ago — you get real data mixed with empty fields. The question is whether the AI makes up numbers to fill gaps or says "I only have 6 quarters of data." Bloom does the latter. But always verify.
+**Small caps and recent IPOs.** Ask for 5 years of history on a company that IPO'd 18 months ago — you get real data mixed with empty fields. The question is whether the AI fills the gaps with made-up numbers or says "I only have 6 quarters of data." Bloom does the latter. But always verify.
 
 ## The Problem Was Never the Data
 
-Every number you need to analyze a stock is available somewhere, probably free. Revenue's in the 10-K. Insider trades are on EDGAR. Price history lives in a dozen APIs. The *analysis* — deciding whether a stock is worth buying — takes maybe 20 minutes of focused thinking.
+Every number you need to analyze a stock is available somewhere. Probably free. Revenue's in the 10-K. Insider trades are on EDGAR. Price history lives in a dozen APIs.
 
-But you can't start thinking until you've assembled the data. And assembly eats an hour.
+The *analysis* — deciding whether a stock is worth buying — takes maybe 20 minutes of focused thinking.
 
-Before Google Maps, planning a road trip meant a paper atlas, a separate traffic website, and calling ahead to ask if a road was open. All the information existed. Stitching it together was the actual work. Google Maps didn't create new data. It made existing data usable.
+But you can't start thinking until you've assembled the data. And assembly eats the hour.
 
-That's what a good financial AI agent does. It's Google Maps for stock research.
+That's what a financial AI agent actually solves. Not the thinking. The plumbing. It turns "I need data from 5 places" into "I need an answer" — and handles the stitching, normalization, and quality checks in between.
 
 ## Skip the Tabs
 
@@ -158,7 +157,7 @@ If you're still doing the 17-tab dance on Saturday mornings:
 
 **For data:** Alpha Vantage free tier + EDGAR + Yahoo Finance covers 80% of US stock research. Add EOD Historical Data ($30/month) for international. Skip Bloomberg.
 
-**For assembly:** that's where agents earn their keep. The gap between "I have access to data" and "I have a coherent picture of this investment" is huge — and it's exactly the gap that's worth automating.
+**For assembly:** that's where agents earn their keep. The gap between "I have access to data" and "I have a coherent picture of this investment" is massive. And it's exactly the part worth automating.
 
 I built [Bloom](https://investwithbloom.com) to close it. Ask a question, the agent fans out across sources, handles the normalization and quality problems, and returns a structured analysis with specific numbers, bull and bear cases, and insider context.
 

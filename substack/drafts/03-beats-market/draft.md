@@ -562,15 +562,15 @@ I hadn't. So I opened Bloom, typed "full analysis of HIMS," and four minutes lat
 
 Then I Googled "how to research a stock." Just to see what normal people find.
 
-Fidelity wants you to check the P/E ratio. Schwab says "understand the business." NerdWallet suggests reading the 10-K — as if anyone Googling basic stock research is about to wade through 200 pages of SEC legalese on a Tuesday night.
+Fidelity wants you to check the P/E ratio. Schwab says "understand the business." NerdWallet suggests reading the 10-K. As if anyone Googling basic stock research is about to wade through 200 pages of SEC legalese on a Tuesday night.
 
-Not wrong. Just stuck in 2015. Hours per stock, assumes you speak finance, and the payoff is a vague gut feeling. "Do your due diligence." Cool. *How?*
+Not wrong. Just stuck in 2015.
 
 I built [Bloom](https://investwithbloom.com) because that process is broken. **4 minutes per stock instead of 3 days.** And the AI catches things I miss.
 
 ## Six Jobs, One Prompt
 
-Stock research is really six separate tasks:
+Stock research breaks down into six separate tasks:
 
 1. **Financials** — revenue, earnings, margins, cash flow, debt
 2. **Valuation** — cheap or expensive relative to what it earns?
@@ -581,7 +581,9 @@ Stock research is really six separate tasks:
 
 The old way: Yahoo Finance in one tab, SEC's EDGAR in another, maybe a brokerage report if you're paying. Copy numbers into a spreadsheet. Read earnings transcripts. Check OpenInsider. Try to form a thesis.
 
-One stock: 2-3 hours minimum. A proper model with stress-tested assumptions: a full day. I've got 30+ stocks on my watchlist. That math doesn't work.
+One stock: 2-3 hours minimum. A proper model with stress-tested assumptions: a full day. I've got 30+ stocks on my watchlist.
+
+That math doesn't work.
 
 ## How I Actually Research Stocks Now
 
@@ -591,11 +593,11 @@ I type: *"Give me a full financial breakdown of @CRWD."*
 
 Bloom calls AlphaVantage (US stocks) and EOD Historical Data (international), pulls the income statement, balance sheet, and cash flow. The actual numbers, not someone else's summary.
 
-Data retrieval is table stakes though. Every financial app gives you numbers. The question is what you do with them.
+But data retrieval is the easy part. Every financial app gives you numbers. What matters is what you do with them.
 
 ### Screen with actual questions, not checkboxes
 
-Finviz lets you filter by P/E and market cap. Fine for simple queries. A stock with a P/E of 15 might be cheap — or cheap for a reason.
+Finviz lets you filter by P/E and market cap. Fine for simple queries. But a stock with a P/E of 15 might be cheap — or cheap for a reason.
 
 I ask Bloom: *"Find me mid-cap tech companies with accelerating revenue growth and insider buying in the last 90 days."*
 
@@ -603,7 +605,7 @@ That combines financial data, insider transactions, and judgment in one query. N
 
 ### Get an actual thesis
 
-This is where most AI stock tools fall over. They fetch data and summarize it. They don't *think*.
+This is where most AI stock tools fall apart. They fetch data and summarize it. They don't *think*.
 
 Here's what Bloom gave me on CrowdStrike (@CRWD):
 
@@ -612,7 +614,7 @@ Here's what Bloom gave me on CrowdStrike (@CRWD):
 - **Valuation**: ~65x forward earnings. Expensive by any traditional metric. But at 30%+ growth with expanding margins, you're paying ~35x on 2026 numbers. Not crazy.
 - **Insider activity**: Modest insider selling (typical for tech execs), institutional ownership increasing.
 
-That's an opinion. Specific numbers, specific take. Not a hedge wrapped in disclaimers.
+That's an opinion. Specific numbers, a specific take. Not a hedge wrapped in disclaimers.
 
 ### Stress-test in plain English
 
@@ -620,7 +622,9 @@ You don't need a 50-tab DCF model. You need scenarios.
 
 *"If @CRWD grows revenue 25% annually for 3 years and reaches 25% operating margin, what's it worth at 30x earnings?"*
 
-Then I push back: What if growth slows to 15%? Margins stay flat? Multiple compresses to 20x? 80% of the insight from a full model, 5% of the time.
+Then I push back: What if growth slows to 15%? Margins stay flat? Multiple compresses to 20x?
+
+80% of the insight from a full model. 5% of the time.
 
 ### Check who's buying (and who's running)
 
@@ -632,7 +636,7 @@ When Berkshire starts building a position, that's signal. When they trim, that's
 
 ## The @HIMS Research Session, Step by Step
 
-Back to that Tuesday text. Here's the actual timeline.
+Back to that Tuesday text. Here's what actually happened.
 
 **Minute 0-1**: Typed *"Full analysis of HIMS"* into Bloom.
 
@@ -644,25 +648,27 @@ Back to that Tuesday text. Here's the actual timeline.
 
 **My call**: Watchlist. The GLP-1 regulatory risk is real — if the FDA shuts down compounding pharmacies, a chunk of the growth thesis evaporates. But the base business (hair loss, ED, skincare) is solid and recurring. Worth tracking through next earnings.
 
-Four minutes. Zero spreadsheets. That's the difference.
+Four minutes. Zero spreadsheets.
 
 ## Where This Breaks Down
 
 I'd be a fraud if I sold this as perfect.
 
-**AI can't read a room.** Is the CEO actually competent or just good at conference calls? Is the culture healthy? Is market sentiment shifting in ways the numbers don't show yet? Good investors develop a feel for this. AI doesn't have it.
+**AI can't read a room.** Is the CEO actually competent or just good at conference calls? Is the culture healthy? Is market sentiment shifting in ways the numbers don't show yet? Good investors develop intuition for this stuff. AI doesn't have it.
 
-**AI trusts bad data.** If the API returns stale earnings, the AI confidently analyzes stale earnings. If a company's getting creative with accounting (hi, @SMCI), it might not catch it. Always sanity-check.
+**AI trusts bad data.** If the API returns stale earnings, the AI confidently analyzes stale earnings. If a company's getting creative with accounting (hi, @SMCI), it might not catch it. Sanity-check everything.
 
 **AI doesn't know what it doesn't know.** Ask about a micro-cap with zero analyst coverage. You'll still get a confident-sounding report. Thin data in, misleading confidence out.
 
 The right mental model: AI is the best research analyst you've never been able to afford. Fast, thorough, tireless. But it's a junior analyst — you're still the portfolio manager. You make the call.
 
-## The Actual Edge
+## The Real Advantage
 
-The first page of Google for "how to research a stock" reads like it was written in 2012. That's not going to change — Fidelity and NerdWallet don't build AI agents.
+The first page of Google for "how to research a stock" reads like it was written in 2012. Fidelity and NerdWallet aren't building AI agents. That's not changing.
 
-The edge in 2025 isn't access to data. Everyone has data. It's speed of analysis. The investor who researches 50 stocks in the time it takes someone else to research 5 finds better opportunities. That's arithmetic.
+The advantage in 2025 isn't access to data. Everyone has data. It's speed of analysis. The investor who researches 50 stocks in the time it takes someone else to research 5 finds better opportunities.
+
+That's just math.
 
 [Bloom](https://investwithbloom.com) is that speed advantage. Not a crystal ball. A research partner that handles the grunt work so you can focus on the part that actually matters — the decision.
 

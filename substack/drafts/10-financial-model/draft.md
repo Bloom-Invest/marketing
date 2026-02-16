@@ -43,57 +43,61 @@ Open with a specific moment during earnings season — a stock drops 15% after-h
 
 ---
 
-It's 4:07pm on a Thursday in January. Meta just reported earnings. Revenue beat. Earnings beat. But Zuckerberg said the magic words — "we're going to increase capital expenditure significantly" — and the stock dropped 12% after hours. $90 billion of market cap, gone in minutes.
+4:07 PM on a Thursday in January. Meta just reported earnings. Revenue beat. Earnings beat. But Zuckerberg said the magic words — "we're going to increase capital expenditure significantly" — and the stock dropped 12% after hours.
 
-I'm staring at my screen with $14,000 worth of @META in my portfolio, watching the number go red, and my brain is doing that thing where it screams "BUY THE DIP" and "GET OUT NOW" at the same time.
+$90 billion of market cap, gone in minutes.
+
+I'm staring at my screen with $14,000 worth of @META in my portfolio, watching the number turn red, and my brain is doing that thing where it screams "BUY THE DIP" and "GET OUT NOW" simultaneously.
 
 A financial model would've answered this in two minutes. If Meta's revenue keeps growing 22% and they spend $40B on capex instead of $30B, what's the stock actually worth? Is $390 a gift or a trap?
 
-I didn't have a model. I had vibes. I had Jim Cramer yelling on CNBC. I had a Reddit thread — half rocket emojis, half skulls.
+I didn't have a model. I had vibes. Jim Cramer yelling on CNBC. A Reddit thread split between rocket emojis and skull emojis.
 
-That night, I built one. Four hours in Google Sheets. Two formulas were probably wrong. By the time I finished, the stock had bounced back 6%.
+That night, I opened Google Sheets. Four hours later, two formulas were probably wrong. By the time I finished, the stock had already bounced back 6%.
 
-Never again. If an AI agent can research a stock in four minutes, it can build a financial model too.
+Never again.
 
 ## A Spreadsheet That Answers One Question
 
 A financial model answers: **what is this company worth?**
 
-Three flavors:
+Three flavors.
 
-**Discounted Cash Flow (DCF)** — the gold standard. Estimate how much cash the company generates over 5-10 years, discount it back to today's dollars because a dollar next year is worth less than a dollar today. The output: an "intrinsic value" — what the business is theoretically worth regardless of what the market says.
+**Discounted Cash Flow (DCF)** — the one that matters. Estimate how much cash the company generates over 5-10 years, discount it back to today's dollars because a dollar next year is worth less than a dollar today. The output: an "intrinsic value" — what the business is theoretically worth regardless of what the market says.
 
 **Comparable Company Analysis (Comps)** — the quick-and-dirty cousin. Look at similar companies, see what multiples the market pays (P/E, EV/EBITDA, price-to-sales), apply those to your company. If @CRM trades at 30x earnings and @NOW at 40x, maybe a similar SaaS company deserves 35x. Rough. Surprisingly useful.
 
 **Three-Statement Model** — income statement, balance sheet, cash flow statement, all linked from the ground up. Revenue by segment, cost assumptions, working capital, debt schedules. Investment bankers build these in 80-hour weeks. You don't need this.
 
-Even on Wall Street, the models are wrong. Every single one. The value isn't the final number — it's the *structure*. A model forces you to make assumptions explicit. Growth rate: 20% or 25%? Margin expansion or contraction? Each assumption is a lever you can pull.
+Here's the thing nobody tells you: even on Wall Street, the models are wrong. Every single one. The value isn't the final number — it's the *structure*. A model forces you to make assumptions explicit. Growth rate: 20% or 25%? Margin expansion or contraction? Each assumption is a lever you can pull.
 
-Models don't predict the future. They force you to *think about it* with structure.
+Models don't predict the future. They force you to think about it with discipline.
 
 ## Why Nobody Builds Them
 
-Even a simple DCF requires clean financial data, the difference between free cash flow and operating cash flow, defensible growth assumptions, and enough Excel fluency to avoid circular-referencing your spreadsheet into oblivion. Every finance intern has done this at least once.
+Even a simple DCF requires clean financial data, knowing the difference between free cash flow and operating cash flow, defensible growth assumptions, and enough Excel fluency to avoid circular-referencing your spreadsheet into oblivion.
 
-I've talked to hundreds of retail investors building [Bloom](https://investwithbloom.com). Almost none build models. Not because they're dumb — because the ROI doesn't pencil. You've got a $50K portfolio, a full-time job, and 30 minutes on Sunday morning. You're not spending four hours modeling @AAPL's services revenue by geographic segment.
+Every finance intern has done this at least once. I've done it more than once.
 
-So what do people actually do? Check the P/E ratio on Yahoo Finance. Read a couple Seeking Alpha articles. See if the stock's above its 200-day moving average. Maybe ask ChatGPT "is @NVDA a good buy?"
+I've talked to hundreds of retail investors building [Bloom](https://investwithbloom.com). Almost none build models. Not because they can't — because the math doesn't pencil. You've got a $50K portfolio, a full-time job, and 30 minutes on Sunday morning. You're not spending four hours modeling @AAPL's services revenue by geographic segment.
+
+So what do people actually do?
+
+Check the P/E ratio on Yahoo Finance. Read a couple Seeking Alpha articles. See if the stock's above its 200-day moving average. Maybe ask ChatGPT "is @NVDA a good buy?"
 
 That's not analysis. That's astrology with extra steps.
 
-The gap between "I checked the P/E" and "I built a DCF" has been unbridged for most of investing history. You either did the professional-grade work or you winged it.
-
-AI agents close that gap.
+For most of investing history, you either did the professional-grade work or you winged it. Nothing in between.
 
 ## Describe the Business. Get a Model.
 
-You say: *"Build me a DCF for Shopify. Revenue grows 25% this year decelerating to 18% by year 5. Operating margins expand from 15% to 22%. 10% discount rate, 25x terminal multiple."*
+You tell an AI agent: *"Build me a DCF for Shopify. Revenue grows 25% this year decelerating to 18% by year 5. Operating margins expand from 15% to 22%. 10% discount rate, 25x terminal multiple."*
 
 The agent pulls @SHOP's financials — $7.76B TTM revenue, current margins, capex, share count — and builds the model. Not a summary. An actual year-by-year projection with discounted cash flows, terminal value, and implied share price.
 
 Thirty seconds.
 
-But the first model is just a starting point. The conversation *after* is what matters.
+But the first model is just a starting point. What matters is the conversation after.
 
 "What if revenue growth only hits 20%?"
 
@@ -107,7 +111,7 @@ New number. Ten seconds.
 
 New number. Ten seconds.
 
-This is sensitivity analysis — the most valuable part of modeling — and it used to mean rebuilding half your spreadsheet. Now you ask questions in English.
+This is sensitivity analysis — the most valuable part of modeling — and it used to mean rebuilding half your spreadsheet. Now it's a question in plain English.
 
 ## Quick DCF: @SHOP at $105
 
@@ -138,7 +142,7 @@ Divided by 1.29B shares: **~$93.50 per share.**
 
 Shopify's at $105. The model says 12% overvalued.
 
-Is that "right"? No. It's exactly as good as my assumptions. But now I know what has to be true for $105 to make sense: either faster growth, more margin expansion, or a market willing to pay a premium multiple.
+Is that "right"? No. It's exactly as good as my assumptions. But now I know what has to be true for $105 to make sense: faster growth, more margin expansion, or a market willing to pay a premium multiple. Maybe all three.
 
 ## Three Scenarios, Two Minutes
 
@@ -146,9 +150,9 @@ Is that "right"? No. It's exactly as good as my assumptions. But now I know what
 
 Year 5 revenue: ~$15.6B instead of $19.94B. Implied share price: **~$61.** That's 42% downside.
 
-**Margin expansion story.** Growth stays on track but margins hit 28% by year 5 instead of 22%. Maybe AI tools help Shopify cut costs. (Using AI to model AI's impact on AI companies — I see the irony.)
+**Margin expansion story.** Growth stays on track but margins hit 28% by year 5 instead of 22%. Maybe AI tools help Shopify cut costs faster than expected. (Using AI to model AI's impact on AI companies — yeah, I see the irony.)
 
-Implied share price: **~$118.** Slightly cheap.
+Implied share price: **~$118.** Slightly cheap at $105.
 
 **Multiple compression.** Growth and margins hit targets, but the market pays 18x terminal FCF instead of 25x. Rates stay higher, risk premiums expand.
 
@@ -160,21 +164,21 @@ What the scenarios tell me:
 - **Growth miss:** 42% downside
 - **Multiple compression:** 30% downside even with solid execution
 
-That's asymmetric — not in my favor. Upside: 12%. Downside: 30-42%. Maybe I wait for a pullback.
+Asymmetric — and not in my favor. Upside: 12%. Downside: 30-42%. Maybe I wait for a pullback.
 
 *That's* what a model does. Not prediction. It tells you what you're betting on and whether the odds favor you.
 
 ## Garbage In, Garbage Out
 
-An AI builds a financial model in 30 seconds. The model is only as good as the assumptions you feed it. And the AI won't check your work.
+An AI builds a financial model in 30 seconds. That model is exactly as good as the assumptions you feed it.
 
-Tell it "assume 40% revenue growth for 5 years" and it'll build that model without blinking. It won't mention that almost no company in history has sustained 40% growth for five consecutive years. It won't flag your 35x terminal multiple when the historical average is 15-20x. It's a calculator with perfect manners — it'll compute whatever you hand it with full confidence.
+Tell it "assume 40% revenue growth for 5 years" and it'll build that model without blinking. It won't mention that almost no company in history has sustained 40% growth for five consecutive years. It won't flag your 35x terminal multiple when the historical average is 15-20x. It's a calculator with perfect manners — it'll compute whatever you hand it.
 
-**False precision is the real trap.** A model that says $93.47 is lying to you. The honest answer is a range — maybe $70 to $120 — and the *width* of that range is the point. If your bull and bear cases span $60 to $180, the model is telling you it doesn't know. Neither do you.
+**False precision is the real trap.** A model that says $93.47 per share is lying to you. The honest answer is a range — maybe $70 to $120 — and the *width* of that range is the point. If your bull and bear cases span $60 to $180, the model is telling you something important: nobody knows. You included.
 
-**AI inherits your biases.** Bullish on a stock? You'll feed optimistic assumptions and get optimistic output. You just used a machine to confirm what you already believed.
+**AI inherits your biases.** Bullish on a stock? You'll feed optimistic assumptions and get optimistic output. Congratulations, you just used a machine to confirm what you already believed.
 
-The fix: **model the bear case first.** Start with the assumptions you *don't* want to be true. If the stock still looks interesting under pessimistic assumptions, now you've got something.
+The fix: **model the bear case first.** Start with the assumptions you *don't* want to be true. If the stock still looks interesting under pessimistic assumptions, now you've actually got something.
 
 ## When It Helps vs. When It's Theater
 
@@ -186,35 +190,29 @@ The fix: **model the bear case first.** Start with the assumptions you *don't* w
 - Earnings just dropped and you need to assess the reaction fast
 
 **Theater:**
-- Justifying a position you've already taken
+- Justifying a position you've already decided on
 - Treating a single-point estimate as a "price target"
 - Running a DCF on a pre-revenue biotech burning cash
 - Projecting 10 years for a company that's existed for 3
 - Posting it on Twitter with "My model says 300% upside 🚀"
 
-The sell-side analyst publishing a $200 target on a stock at $195 isn't modeling. That's marketing. The buy-side analyst stress-testing twenty scenarios before deploying $50M? Actually using the tool.
+The sell-side analyst publishing a $200 target on a stock at $195 isn't modeling. That's marketing.
 
 ## How Bloom Handles This
 
-When I built [Bloom](https://investwithbloom.com), I wanted modeling that's accessible without being dumbed down. The AI agent pulls real financial data, builds projections from your assumptions (or suggests reasonable ones if you're unsure), and lets you iterate conversationally.
+When I built [Bloom](https://investwithbloom.com), I wanted modeling that's accessible without being dumbed down. The AI agent pulls real financial data, builds projections from your assumptions (or suggests reasonable ones if you're not sure where to start), and lets you iterate conversationally.
 
-You don't need to build a WACC calculation from scratch. You don't need to remember the terminal value formula. Describe the business, the AI builds the model, you argue with the assumptions.
+You don't need to build a WACC calculation from scratch. You don't need to remember the terminal value formula. Describe the business, the agent builds the model, you argue with the assumptions.
 
-*Argue* — that's the key word. The best analysts don't build a model and walk away. They poke at it. They ask "what would have to be true for this to work?" and decide if they believe it.
-
-AI agents make that conversation accessible to anyone who can type a sentence.
+*Argue* — that's the key word. The best analysts don't build a model and walk away. They poke at it. They ask "what would have to be true for this to work?" and then decide if they believe it.
 
 ## What I Wish I Had That Night
-
-Financial modeling was gatekept for decades. You learned it in banking, from a $500 online course, or not at all. Most retail investors invested on vibes.
-
-AI agents didn't make models smarter. They made the process *accessible.* Describe the business, set assumptions, see output, iterate. Hours collapsed to minutes.
-
-But the model is not the answer. It's a thinking tool. It forces explicit assumptions, scenario testing, and an honest look at where the outcomes land.
 
 That Meta earnings night? With a model ready, I'd have known in two minutes that even with the capex increase, the stock was below my base-case intrinsic value. I'd have bought the dip instead of staring at my screen in a cold sweat.
 
 Instead, I spent four hours in Google Sheets and still wasn't sure.
+
+Financial modeling was gatekept for decades — you learned it in banking, from a $500 course, or not at all. AI agents didn't make models smarter. They made the process fast enough that a retail investor can actually use one when it matters. Like 4:07 PM on an earnings Thursday, when $14,000 is on the line and you need an answer, not a vibe.
 
 ---
 
