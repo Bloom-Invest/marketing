@@ -1,0 +1,97 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                        #29: YOU ASKED, I ANALYZED                              ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+SERIES CONCEPT: Community-driven stock analysis responding to follower requests
+
+TARGET: 800K+ views | 6.5%+ engagement | 1.2%+ share rate
+LENGTH: 45 seconds
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FRAME 1 (0-4s) - THE HOOK                                                   │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│     "You flooded my comments asking about 5 stocks.                         │
+│      Here's what Bloom AI found."                                           │
+│                                                                              │
+│     [SHOW: Rapid montage of comment screenshots]                            │
+│     [TEXT OVERLAY: 487 REQUESTS 📊]                                         │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FRAME 2 (4-12s) - STOCK #1                                                  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   📱 TESLA (TSLA)                                                           │
+│   ═══════════════                                                           │
+│   • Most requested (142 comments)                                           │
+│   • Bloom Score: 7.2/10                                                     │
+│   • Verdict: HOLD                                                           │
+│   • Why: Overvalued but strong momentum                                     │
+│                                                                              │
+│   [GRAPHIC: Bloom AI dashboard with score visualization]                    │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FRAME 3 (12-32s) - STOCKS #2-5 RAPID FIRE                                   │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   💻 NVIDIA (NVDA)                                                          │
+│      Score: 8.4/10 → ✅ BUY                                                 │
+│      AI chip demand = unstoppable                                           │
+│                                                                              │
+│   🏦 WELLS FARGO (WFC)                                                      │
+│      Score: 6.1/10 → ⚠️ HOLD                                                │
+│      Regulatory risk too high                                               │
+│                                                                              │
+│   🎮 ROBLOX (RBLX)                                                          │
+│      Score: 4.2/10 → 🚫 SELL                                                │
+│      User growth stalling                                                   │
+│                                                                              │
+│   ⚡ PALANTIR (PLTR)                                                        │
+│      Score: 7.9/10 → ✅ BUY                                                 │
+│      Government contracts accelerating                                      │
+│                                                                              │
+│   [FAST CUTS: Each stock gets 4-5 seconds]                                  │
+│   [VISUAL: Green/yellow/red color coding for buy/hold/sell]                 │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FRAME 4 (32-45s) - THE VALUE PROP                                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   "This took Bloom AI 38 seconds.                                           │
+│    It would've taken me 6 hours.                                            │
+│                                                                              │
+│    Full research breakdown for all 5 → link in bio 🔗                       │
+│                                                                              │
+│    Drop your next request in the comments 👇"                               │
+│                                                                              │
+│   [SHOW: Bloom AI interface with detailed reports]                          │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENGAGEMENT STRATEGY:
+• Comment farming: "Which stock should I analyze next?"
+• Creates FOMO: People want their requests featured
+• Social proof: "487 of you asked..."
+• Builds community: We listen, we deliver
+• Recurring format: Weekly series potential
+
+VARIATIONS:
+• "Top 3 Reddit stocks analyzed"
+• "Hedge fund favorites reviewed"
+• "Your dad's portfolio audit"
+• "Meme stocks vs. Bloom AI"
+
+VIRAL HOOKS:
+✓ Community involvement (YOU asked)
+✓ Rapid-fire value delivery
+✓ AI vs. human time comparison
+✓ Clear actionable verdicts
+✓ Invite next round of engagement
